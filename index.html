@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>
-	Ejercicio1
-	</title>
-	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
-	<link rel="stylesheet" type="text/css" href="styles/estilo.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Clase 6</title>
+  </head>
+  <body>
+    <form autocomplete="off">
+      <h1>Registration form</h1>
+      <input type="text" placeholder="Firstname" id="firstname" required />
+      <input type="text" placeholder="Lastname" id="lastname" required />
+      <input type="text" placeholder="Username" id="username" required />
+      <input
+        type="password"
+        placeholder="Password (8 characters)"
+        id="password"
+      />
+      <input
+        type="password"
+        placeholder="Confirm pasword"
+        id="password-confirm"
+      />
+      <input type="date" placeholder="Birthday" id="birthday" />
+      <label for="newsletter-checkbox"
+        >I have verified that the data is correct.
+        <input type="checkbox" id="newsletter-checkbox" required
+      /></label>
 
-<body>
-	<div>
-		<button class="boton" id="boton1">Boton</button">
-	</div>
-	
-	<p class="texto" id="texto1">Este texto deberia cambiar cuando aprete el botón y alguna otra cosa</p>
+      <input type="submit" value="Send Form" />
+    </form>
 
-	<div>
-		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-	</div>
-	<script src="scripts/codigo.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
