@@ -1,3 +1,7 @@
+html {
+  background: linear-gradient(to right, #addddd, #fafafa, #addddd);
+}
+
 body {
   color: #fff;
   font-family: sans-serif;
@@ -64,7 +68,9 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-html {
-  background: linear-gradient(to right, #addddd, #fafafa, #addddd);
+div.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  padding-top: 100px;
 }
-
