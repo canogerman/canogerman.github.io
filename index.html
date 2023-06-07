@@ -2,34 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./index.css" />
     <title>Clase 6</title>
   </head>
   <body>
-    <form autocomplete="off">
-      <h1>Registration form</h1>
-      <input type="text" placeholder="Firstname" id="firstname" required />
-      <input type="text" placeholder="Lastname" id="lastname" required />
-      <input type="text" placeholder="Username" id="username" required />
-      <input
-        type="password"
-        placeholder="Password (8 characters)"
-        id="password"
-      />
-      <input
-        type="password"
-        placeholder="Confirm pasword"
-        id="password-confirm"
-        required
-      />
-      <input type="date" placeholder="Birthday" id="birthday" />
-      <label for="newsletter-checkbox"
-        >I have verified that the data is correct.
-        <input type="checkbox" id="newsletter-checkbox" required
-      /></label>
-      <input type="submit" value="Send Form" />
-      <div class="copyright">&copy; 2023 - G.A.C.N</div>
-    </form>
+    <main>
+      <div>
+        <form autocomplete="off">
+          <h1>Registration form</h1>
+
+          <div>
+            <label for="firstname">Firstname</label>
+            <input
+              type="text"
+              placeholder="Jhon"
+              id="firstname"
+              required
+            />
+            <label for="lastname">Lastname</label>
+            <input type="text" placeholder="Whick" id="lastname" required />
+            <label for="username">Username</label>
+            <input type="text" placeholder="JhonW123" id="username" required />
+            <label for="password">Password - 8 characters with Uppercaps and numbers</label>
+            <input
+              type="password"
+              placeholder="Abc12345"
+              id="password"
+            />
+            <label for="password-confirm">Confirm password</label>
+            <input
+              type="password"
+              placeholder="Abc12345"
+              id="password-confirm"
+              required
+            />
+            <label for="birthday">Birthday</label>
+            <input type="date" placeholder="Birthday" id="birthday" />
+          </div>
+
+          <div class="form-end-container">
+            <label for="newsletter-checkbox"
+              >I have verified that the data is correct.
+              <input type="checkbox" id="newsletter-checkbox" required
+            /></label>
+            <input type="submit" value="Send Form" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <div class="copyright">&copy; 2023 - G.A.C.N</div>
 
     <script src="./index.js"></script>
   </body>
