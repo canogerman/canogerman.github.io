@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    animation: aparecer 3s infinite;
+}
+
+/* h1::after,
+h1::before {  
+  position: absolute;
+  border-radius: inherit;
+}
+
+h1::before {
+    color: black;
+    text-shadow: 5px 5px 10px white;
+    text-align: center;    
+}
+
+
+h1::after {
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;  
+} */
+
+@keyframes aparecer {
+  0% {
+    scale: 100%;
+  }
+  50% {
+    scale: 90%;
+  }
+  100% {
+    scale: 100%;
+  }
+}

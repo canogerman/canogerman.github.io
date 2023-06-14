@@ -1,0 +1,22 @@
+* {
+  background-color: black;
+}
+
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-section img {
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  @media (max-width: 375px) { /* Iphone SE 375x667 */
+    .image-section img {
+      width: 50%;
+    }
+  }
+  
