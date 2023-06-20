@@ -16,7 +16,13 @@
 
 h2,
 #date {
-  background: linear-gradient(90deg, #240000, black, black, #240000);
+  background: linear-gradient(90deg, #770000, black, black, #770000);
+  background-size: 400% 400%;
+  animation: change 10s ease infinite;
+}
+
+hr {
+  background: linear-gradient(90deg, #770000, black, black, #770000);
   background-size: 400% 400%;
   animation: change 10s ease infinite;
 }

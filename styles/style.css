@@ -54,6 +54,12 @@ border-radius: 1.2em;
  
 }
 
+hr { 
+  height: 18px;
+  background-color: #380000;
+  border: none;  
+}
+
 @media (max-width: 360px) {
   /* Samsung Galaxy s8+ */
   #results img {
