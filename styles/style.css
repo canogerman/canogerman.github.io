@@ -1,0 +1,76 @@
+* {
+  background-color: rgb(0, 0, 0);
+ color: #fafafa; 
+}
+
+.selectors-container {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;  
+}
+
+select {  
+  margin: 0px 10px 0px 10px;
+  padding-bottom: 20px;
+  background-color: #380000;  
+  padding: 10px;
+  border: none;
+  border-radius: 5px;  
+}
+
+select:hover {
+  background-color: #b00000;
+}
+
+.counter {
+color: #00ccff;
+background-color: #380000;
+padding: 2px 2px 2px 10px;
+border-radius: 1.2em;
+}
+
+.data {  
+  color: #00ccff;
+  display: inline-block;
+}
+
+.movie-item {
+  color: #ff5757;
+  display: inline-block;
+  width: 40vh;
+  padding-bottom: 10px;
+}
+
+#results img {
+  display: flex;
+  width: 25vh;
+  height: 40vh;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#results {
+  margin-left: 35px;
+ 
+}
+
+@media (max-width: 360px) {
+  /* Samsung Galaxy s8+ */
+  #results img {
+    width: 43vh;
+  }
+  .movie-item {
+    display: inline;    
+  }
+  .data {
+    color: #00ccff;
+    display: inline-flex;
+  }
+  #results {
+    margin-left: 0px;
+  }
+  
+  body {
+    margin: 20px 20px;
+  }
+}
