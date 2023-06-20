@@ -1,0 +1,35 @@
+.clock-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#time {
+  font-size: 25px;
+  color: #770000;
+  margin-bottom: 0;
+}
+
+#date {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+h2,
+#date {
+  background: linear-gradient(90deg, #240000, black, black, #240000);
+  background-size: 400% 400%;
+  animation: change 10s ease infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
