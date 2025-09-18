@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH App Auscultación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style type="text/tailwindcss">
+        :root {
+            --primary-50: #eef8fc;
+            --primary-100: #dcf1f9;
+            --primary-200: #b9e3f3;
+            --primary-300: #96d5ed;
+            --primary-400: #73c7e7;
+            --primary-500: #50b9e1;
+            --primary-600: #1193d4;
+            --primary-700: #0d70a1;
+            --primary-800: #0a577b;
+            --primary-900: #063e55;
+            --primary-950: #042b3a;
+            --primary-color: #1193d4;
+        }
+        body {
+            min-height: 100dvh;
+            background-color: #111c22;
+        }
+    </style>
+</head>
+<body class="bg-[#111c22] dark" style="font-family: Inter, 'Noto Sans', sans-serif;">
+
+    <!-- Pantalla de Selección de Instrumento -->
+    <div id="screen-instrument-selection">
+        <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+            <header class="sticky top-0 z-10 bg-[#111c22]/80 backdrop-blur-sm">
+                <div class="flex items-center p-4 pb-2 justify-between border-b border-slate-800">
+                    <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">
+                        Instrumentos
+                    </h2>
+                </div>
+            </header>
+            <main class="flex-1">
+                <div class="px-4 py-4 sticky top-[68px] z-10 bg-[#111c22]/80 backdrop-blur-sm">
+                    <div class="relative">
+                        <div class="text-slate-400 absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                            <span class="material-symbols-outlined"> search </span>
+                        </div>
+                        <input id="search-instrument-input" class="form-input w-full rounded-full text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border-none bg-slate-800 focus:border-none h-12 placeholder:text-slate-400 pl-11 text-base font-normal" placeholder="Buscar instrumento" value=""/>
+                    </div>
+                </div>
+                <div class="px-4 pt-2 pb-4">
+                    <button id="download-report-button" class="flex w-full items-center justify-center rounded-lg h-12 px-4 bg-slate-700 text-white text-base font-medium hover:bg-slate-600 active:bg-slate-800 transition-colors">
+                        <span class="material-symbols-outlined mr-2">download</span>
+                        Descargar Reporte de Sesión
+                    </button>
+                </div>
+                <h3 class="text-white text-base font-semibold leading-tight tracking-[-0.015em] px-4 pb-2 pt-5">
+                    Instrumentos                    
+                </h3>
+                <div id="instrument-list" class="flex flex-col">
+                    <!-- La lista de instrumentos se generará aquí -->
+                </div>
+            </main>
+            <footer class="sticky bottom-0 z-10 border-t border-slate-800 bg-[#111c22]/80 backdrop-blur-sm">
+                <nav class="flex justify-around items-center px-4 pt-2 pb-4">
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-[var(--primary-color)]" data-screen="screen-instrument-selection">
+                        <span class="material-symbols-outlined"> monitoring </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Instrumentos</p>
+                    </a>
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-slate-400 hover:text-[var(--primary-color)] transition-colors" data-screen="screen-new-reading">
+                        <span class="material-symbols-outlined"> add_circle </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Cargar Lectura</p>
+                    </a>
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-slate-400 hover:text-[var(--primary-color)] transition-colors" data-screen="screen-graph">
+                        <span class="material-symbols-outlined"> show_chart </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Gráficos</p>
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Pantalla de Gráfico de Mediciones -->
+    <div id="screen-graph" style="display: none;">
+        <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#111c22] dark justify-between group/design-root overflow-x-hidden">
+            <div class="flex-grow">
+                <header class="flex items-center bg-transparent p-4 pb-2 justify-between">
+                    <button class="nav-button text-white p-2" data-screen="screen-instrument-selection">
+                        <span class="material-symbols-outlined"> arrow_back_ios </span>
+                    </button>
+                    <h1 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-8">Gráfico de Mediciones</h1>
+                </header>
+                <main class="p-4 space-y-6">
+                    <div>
+                        <label class="sr-only" for="instrument-select-chart">Seleccionar Instrumento</label>
+                        <select id="instrument-select-chart" class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#325567] bg-[#192b33] focus:border-[#325567] h-14 placeholder:text-[#92b7c9] p-3 text-base font-normal leading-normal appearance-none">
+                            <!-- Opciones de instrumentos se generarán aquí -->
+                        </select>
+                    </div>
+                    <div class="flex flex-col gap-2 rounded-xl border border-[#325567] bg-[#192b33] p-4">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p id="chart-title" class="text-white text-base font-medium leading-normal">Magnitud vs. Fecha</p>
+                                <p id="latest-measurement" class="text-white tracking-light text-4xl font-bold leading-tight truncate">--</p>
+                            </div>
+                        </div>
+                        <div class="h-64 py-4">
+                            <canvas id="measurements-chart"></canvas>
+                        </div>
+                        <div id="chart-legend" class="flex justify-between text-[#92b7c9] text-xs font-medium tracking-wider border-t border-[#325567] pt-2">
+                            <!-- Leyenda del gráfico se generará aquí -->
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="sticky bottom-0 z-10 border-t border-slate-800 bg-[#111c22]/80 backdrop-blur-sm">
+                <nav class="flex justify-around items-center px-4 pt-2 pb-4">
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-slate-400 hover:text-[var(--primary-color)] transition-colors" data-screen="screen-instrument-selection">
+                        <span class="material-symbols-outlined"> monitoring </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Instrumentos</p>
+                    </a>
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-slate-400 hover:text-[var(--primary-color)] transition-colors" data-screen="screen-new-reading">
+                        <span class="material-symbols-outlined"> add_circle </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Cargar Lectura</p>
+                    </a>
+                    <a href="#" class="nav-button flex flex-col items-center justify-end gap-1 text-[var(--primary-color)]" data-screen="screen-graph">
+                        <span class="material-symbols-outlined"> show_chart </span>
+                        <p class="text-xs font-medium leading-normal tracking-[0.015em]">Gráficos</p>
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Pantalla de Carga de Nueva Lectura -->
+    <div id="screen-new-reading" style="display: none;">
+        <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#111c22] dark justify-between group/design-root overflow-x-hidden">
+            <div class="flex flex-col flex-1">
+                <header class="flex items-center bg-[#111c22] p-4 pb-2 justify-between">
+                    <button class="nav-button text-white flex size-10 items-center justify-center rounded-full hover:bg-white/10 transition-colors" data-screen="screen-instrument-selection">
+                        <span class="material-symbols-outlined text-2xl"> arrow_back </span>
+                    </button>
+                    <h1 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-10">
+                        Nueva Lectura
+                    </h1>
+                </header>
+                <main class="flex-1 px-4 py-6 space-y-6">
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-300" for="date">Fecha</label>
+                        <div class="relative">
+                            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"> calendar_today </span>
+                            <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 placeholder:text-[#92b7c9] pl-11 pr-4 text-base font-normal leading-normal" id="new-reading-date" placeholder="AAAA-MM-DD" type="text"/>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-300" for="instrument-reading">Lectura del Instrumento</label>
+                        <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 placeholder:text-[#92b7c9] p-4 text-base font-normal leading-normal" id="new-reading-input" placeholder="Ingrese la lectura" type="text"/>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-300" for="instrument">Instrumento</label>
+                        <div class="relative">
+                            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"> hardware </span>
+                            <select class="form-select appearance-none flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 placeholder:text-[#92b7c9] pl-11 pr-10 text-base font-normal leading-normal" id="new-reading-instrument-select">
+                                <!-- Opciones de instrumentos se generarán aquí -->
+                            </select>
+                            <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"> unfold_more </span>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-gray-300" for="physical-magnitude">Magnitud Física</label>
+                        <div class="relative">
+                            <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 border-none bg-[#1a2e39] h-14 placeholder:text-[#92b7c9] p-4 text-base font-normal leading-normal cursor-not-allowed" id="calculated-magnitude" readonly="" value="--"/>
+                            <div class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
+                                <span class="text-xs font-semibold text-primary-400 bg-primary-900/50 px-2 py-1 rounded-full">Calculado</span>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="sticky bottom-0 bg-[#111c22]/80 backdrop-blur-sm px-4 py-4">
+                <button id="save-reading-button" class="flex w-full min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-5 bg-primary-600 text-white text-lg font-bold leading-normal tracking-[0.015em] hover:bg-primary-700 active:bg-primary-800 transition-colors shadow-lg shadow-primary-900/50">
+                    <span class="material-symbols-outlined mr-2"> save </span>
+                    <span class="truncate">Guardar Lectura</span>
+                </button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
