@@ -1,0 +1,2344 @@
+{
+  "measurements": [
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.548
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.205
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 50.255
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 129.698
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1322.7
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 453.24
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 886.25
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1088.37
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-02",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.545
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 50.255
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 129.698
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1322.7
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 453.24
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 875.4
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1088.37
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-06",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.529
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 47.848
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 129.698
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1297.98
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 435.89
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 853.83
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1088.37
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-13",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.455
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 44.371
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 126.709
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1261.19
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 435.89
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 832.44
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1076.76
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-20",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.495
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 81.573
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 172.439
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1410.43
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 506.59
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 952.27
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1123.43
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.568
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 64.781
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 145.276
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1335.12
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 479.68
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 941.15
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1147.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-03",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.349
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.495
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 53.998
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 138.917
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1297.98
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 470.81
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 919.06
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1076.76
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-10",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.422
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 42.139
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 132.729
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1212.68
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 453.24
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 919.06
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1076.76
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-17",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.604
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 41.049
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 142.075
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1236.85
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 479.68
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 897.14
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1088.37
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.146
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 42.139
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 145.276
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1249.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 497.57
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 908.08
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1100.01
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-07",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.584
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 47.848
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 145.28
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1360.07
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 497.57
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 930.09
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1135.2
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-10",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.662
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 51.485
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 148.519
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1360.07
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 497.57
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 952.27
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1170.74
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-17",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 9.787
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 53.998
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 155.135
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1385.17
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 515.67
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 974.61
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1147.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-25",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.259
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 55.282
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 158.508
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1397.78
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 515.67
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 985.85
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1182.67
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-03-31",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 1.915
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.256
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 69.132
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 158.51
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1397.78
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 515.67
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 985.85
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1194.64
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-04",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 0.847
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.386
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.516
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 73.653
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 158.51
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1423.11
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1008.46
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1206.65
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-07",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 3.664
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.071
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.729
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 73.653
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 161.925
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1435.83
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 543.22
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1019.82
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1230.79
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 1.477
+    },
+    {
+      "fecha": "2025-04-14",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 5.381
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.021
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 0.774
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 79.95
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 165.386
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 561.84
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1042.68
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1242.91
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 1.628
+    },
+    {
+      "fecha": "2025-04-21",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 6.043
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.004
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 7.962
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 83.216
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 168.89
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1525.93
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 580.67
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 9.167
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 12.563
+    },
+    {
+      "fecha": "2025-04-28",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 11.029
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 3.171
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 10.23
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 89.983
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 179.67
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1578.21
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 609.29
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1100.54
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 13.653
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 14.798
+    },
+    {
+      "fecha": "2025-05-05",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 16.62
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.839
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 12.38
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 106.389
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 187.08
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1631.08
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 609.29
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1112.24
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 16.62
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 19.25
+    },
+    {
+      "fecha": "2025-05-12",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 22.869
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 3.451
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 15.18
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 106.389
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 187.08
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1631.08
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 609.29
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1112.24
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 17.256
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 19.944
+    },
+    {
+      "fecha": "2025-05-19",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 23.638
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 3.488
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 18.88
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 120.303
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 190.852
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1644.39
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 609.29
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1123.98
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 19.25
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 22.115
+    },
+    {
+      "fecha": "2025-05-26",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 26.867
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 3.571
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 19.583
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 122.375
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 190.85
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1644.39
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 609.29
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1123.98
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1194.64
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 19.944
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 22.115
+    },
+    {
+      "fecha": "2025-06-02",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 26.867
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.933
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 8.676
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 104.484
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 172.439
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1552.0
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 543.22
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1100.54
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1206.65
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 15.999
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 19.944
+    },
+    {
+      "fecha": "2025-06-09",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 23.638
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.911
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 18.031
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 100.737
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 165.386
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1538.94
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1088.89
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1230.79
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 19.944
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 17.906
+    },
+    {
+      "fecha": "2025-06-17",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 22.869
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.77
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 14.625
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 100.737
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 155.135
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1538.94
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1267.28
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 13.102
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 11.029
+    },
+    {
+      "fecha": "2025-06-23",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 19.944
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.686
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 14.484
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 100.737
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 155.135
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1512.94
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1353.81
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 13.102
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 7.904
+    },
+    {
+      "fecha": "2025-06-30",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 19.25
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.389
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 15.805
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 100.74
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 155.14
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1341.33
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 14.798
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 6.751
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 19.25
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.313
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 16.058
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 97.071
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 176.032
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 561.84
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1304.13
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 14.219
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 6.043
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 17.906
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.614
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 15.941
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 97.071
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 172.439
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 543.22
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1291.81
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 13.102
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 5.706
+    },
+    {
+      "fecha": "2025-07-21",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 17.906
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.375
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 12.885
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 97.071
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 168.89
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 533.99
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1291.81
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 12.039
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 3.664
+    },
+    {
+      "fecha": "2025-07-28",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 16.62
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.365
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 9.049
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 95.269
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 165.386
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 524.8
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1065.7
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1255.08
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 8.734
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 1.074
+    },
+    {
+      "fecha": "2025-08-04",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 11.029
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.288
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 9.036
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 89.983
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 151.805
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1500.0
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 524.8
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1019.82
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1242.91
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 8.734
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 1.074
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 11.029
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.192
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 10.3
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 91.725
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 158.508
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1461.39
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 515.67
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 1008.46
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1267.28
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 9.167
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 1.628
+    },
+    {
+      "fecha": "2025-08-18",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 14.219
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QP-2100",
+      "magnitud_fisica": 2.126
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QP-2000",
+      "magnitud_fisica": 7.717
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-700",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-4000",
+      "magnitud_fisica": 83.216
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-3750",
+      "magnitud_fisica": 148.519
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-3400",
+      "magnitud_fisica": 1423.11
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-3100",
+      "magnitud_fisica": 506.59
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-2750",
+      "magnitud_fisica": 974.61
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-2310",
+      "magnitud_fisica": 1218.7
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-1980",
+      "magnitud_fisica": 6.751
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-1600",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-1300",
+      "magnitud_fisica": 0.0
+    },
+    {
+      "fecha": "2025-08-25",
+      "instrumento": "QA-1000",
+      "magnitud_fisica": 10.072
+    }
+  ]
+}

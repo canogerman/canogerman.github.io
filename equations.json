@@ -1,0 +1,121 @@
+{
+    "equations": [
+        {
+            "instrumento": "QA-700",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(19.74/2))*Math.pow(((2.44-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 19.74,
+            "k": 0.0029,
+            "Lo": 2.44
+        },
+        {
+            "instrumento": "QA-1000",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(20.96/2))*Math.pow(((2.438-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 20.96,
+            "k": 0.0029,
+            "Lo": 2.438
+        },
+        {
+            "instrumento": "QA-1300",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(19.21/2))*Math.pow(((2.403-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 19.21,
+            "k": 0.0029,
+            "Lo": 2.403
+        },
+        {
+            "instrumento": "QA-1600",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(20.4/2))*Math.pow(((1.988-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 20.4,
+            "k": 0.0029,
+            "Lo": 1.988
+        },
+        {
+            "instrumento": "QA-1980",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(20.18/2))*Math.pow(((2.028-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 20.18,
+            "k": 0.0029,
+            "Lo": 2.028
+        },
+        {
+            "instrumento": "QA-2310",
+            "equation": "2/3*0.6063*Math.sqrt(2*9.81)*0.201*Math.pow((4.14-lectura), 3/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "rectangular",
+            "Cd": 0.6063,
+            "Lw": 0.201,
+            "Lo": 4.14
+        },
+        {
+            "instrumento": "QA-2750",
+            "equation": "2/3*0.6063*Math.sqrt(2*9.81)*0.201*Math.pow((2.805-lectura), 3/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "rectangular",
+            "Cd": 0.6063,
+            "Lw": 0.201,
+            "Lo": 2.805
+        },
+        {
+            "instrumento": "QA-3100",
+            "equation": "2/3*0.6213*Math.sqrt(2*9.81)*0.201*Math.pow((2.482-lectura), 3/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "rectangular",
+            "Cd": 0.6213,
+            "Lw": 0.201,
+            "Lo": 2.482
+        },
+        {
+            "instrumento": "QA-3400",
+            "equation": "2/3*0.6004*Math.sqrt(2*9.81)*0.201*Math.pow((2.683-lectura), 3/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "rectangular",
+            "Cd": 0.6004,
+            "Lw": 0.201,
+            "Lo": 2.683
+        },
+        {
+            "instrumento": "QA-3750",
+            "equation": "8/15*0.58*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(45.04/2))*Math.pow(((1.979-lectura)+0.0015), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.58,
+            "angle": 45.04,
+            "k": 0.0015,
+            "Lo": 1.979
+        },
+        {
+            "instrumento": "QA-4000",
+            "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(19.96/2))*Math.pow(((1.953-lectura)+0.0029), 5/2)*1000*60",
+            "variable": "Caudal",
+            "unit": "l/min",
+            "type": "triangular",
+            "Cd": 0.592,
+            "angle": 19.96,
+            "k": 0.0029,
+            "Lo": 1.953
+        }
+    ]
+}
