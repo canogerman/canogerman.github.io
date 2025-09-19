@@ -50,7 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 const screenId = button.dataset.screen;
                 if (screenId) {
-                    showScreen(screenId);
+                    const fromGraph = screens['screen-graph'].style.display === 'block';
+                    const toNewReading = screenId === 'screen-new-reading';
+
+                    if (fromGraph && toNewReading) {
+                        const currentInstrument = instrumentSelectChart.value;
+                        showScreen(screenId, currentInstrument);
+                    } else {
+                        showScreen(screenId);
+                    }
                 }
             });
         });
@@ -81,6 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetInstrument = instrumentName || instrumentSelectChart.value || getUniqueInstruments()[0];
             instrumentSelectChart.value = targetInstrument;
             updateChart(targetInstrument);
+        } else if (screenId === 'screen-new-reading' && instrumentName) {
+            newReadingInstrumentSelect.value = instrumentName;
+            calculateMagnitude();
         }
     }
 
