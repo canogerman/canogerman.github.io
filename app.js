@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateChart(instrumento);
 
         alert('Lectura guardada exitosamente (en la memoria de esta sesión).');
-        showScreen('screen-instrument-selection');
+        showScreen('screen-graph', instrumento);
         
         // Reset form
         newReadingInput.value = '';
