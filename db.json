@@ -2339,6 +2339,406 @@
       "fecha": "2025-08-25",
       "instrumento": "QA-1000",
       "magnitud_fisica": 10.072
+    },
+    {
+    "fecha": "2025-01-27",
+    "instrumento": "EF18",
+    "magnitud_fisica": 0.703
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.817
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.117
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -6.057
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.627
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.373
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 2.107
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": -0.033
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": -0.047
+    },
+    {
+      "fecha": "2025-01-27",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.073
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.693
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.753
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.123
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -6.083
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.547
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.317
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 2.353
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": -0.163
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": 0.073
+    },
+    {
+      "fecha": "2025-02-24",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.093
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.673
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.877
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.107
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -6.067
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.567
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.233
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.833
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": -0.227
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": 0.117
+    },
+    {
+      "fecha": "2025-03-28",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.077
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.667
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.907
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.077
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -5.967
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.603
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.203
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.663
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": 0.137
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": -0.163
+    },
+    {
+      "fecha": "2025-04-16",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.067
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.687
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 1.013
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.067
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -5.933
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.597
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.203
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.567
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": 0.387
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": -0.093
+    },
+    {
+      "fecha": "2025-05-30",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.117
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.643
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.957
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.057
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -5.957
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.573
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.183
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.533
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": -0.017
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": 0.127
+    },
+    {
+      "fecha": "2025-06-27",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.037
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.657
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.953
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.047
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -5.987
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.577
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.173
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.493
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": -0.057
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": -0.077
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.027
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.653
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF19'",
+      "magnitud_fisica": 0.963
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF1-TBG",
+      "magnitud_fisica": -0.027
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF2-TT",
+      "magnitud_fisica": -5.943
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF3-TV",
+      "magnitud_fisica": -1.563
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF1-G",
+      "magnitud_fisica": 6.163
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "EF2-G",
+      "magnitud_fisica": 1.483
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "TX1-TBG A-C",
+      "magnitud_fisica": 0.297
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "TX1-TBG N-N",
+      "magnitud_fisica": -0.277
+    },
+    {
+      "fecha": "2025-08-29",
+      "instrumento": "TX1-TBG T-T",
+      "magnitud_fisica": 0.047
     }
   ]
 }
