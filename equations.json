@@ -116,6 +116,76 @@
             "angle": 19.96,
             "k": 0.0029,
             "Lo": 1.953
+        },
+        {
+            "instrumento": "EF18",
+            "equation": "19.64-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 19.64
+        },
+        {
+            "instrumento": "EF19'",
+            "equation": "19.99-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 19.99
+        },
+        {
+            "instrumento": "EF1-TBG",
+            "equation": "96.76-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 96.76
+        },
+        {
+            "instrumento": "EF2-TT",
+            "equation": "99.77-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 99.77
+        },
+        {
+            "instrumento": "EF3-TV",
+            "equation": "99.93-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 99.93
+        },
+        {
+            "instrumento": "EF1-G",
+            "equation": "93.38-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 93.38
+        },
+        {
+            "instrumento": "EF2-G",
+            "equation": "98.15-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 98.15
+        },
+        {
+            "instrumento": "TX1-TBG A-C",
+            "equation": "65.97-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 65.97
+        },
+        {
+            "instrumento": "TX1-TBG N-N",
+            "equation": "92.71-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 92.71
+        },
+        {
+            "instrumento": "TX1-TBG T-T",
+            "equation": "61.98-lectura",
+            "variable": "Deformacion",
+            "unit": "mm",
+            "Lo": 61.98
         }
     ]
 }
