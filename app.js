@@ -1,15 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const screens = {
-        'screen-instrument-selection': document.getElementById('screen-instrument-selection'),
         'screen-graph': document.getElementById('screen-graph'),
         'screen-new-reading': document.getElementById('screen-new-reading'),
     };
 
     const navButtons = document.querySelectorAll('.nav-button');
-    const instrumentListContainer = document.getElementById('instrument-list');
-    const searchInstrumentInput = document.getElementById('search-instrument-input');
     const downloadReportButton = document.getElementById('download-report-button');
     const instrumentSelectChart = document.getElementById('instrument-select-chart');
+    const searchInstrumentChartInput = document.getElementById('search-instrument-chart-input');
     const chartTitle = document.getElementById('chart-title');
     const latestMeasurement = document.getElementById('latest-measurement');
     const chartCanvas = document.getElementById('measurements-chart');
@@ -23,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let equations = [];
     let sessionReadings = []; // To store new readings from this session
     let chart = null;
+    let allInstruments = [];
 
     // --- DATA LOADING ---
     Promise.all([
@@ -31,16 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
     ]).then(([dbData, equationsData]) => {
         measurements = dbData.measurements;
         equations = equationsData.equations;
+        allInstruments = getUniqueInstruments();
         initializeApp();
     });
 
     function initializeApp() {
         setupNavigation();
-        populateInstrumentList();
         populateInstrumentSelects();
         setupNewReadingForm();
         setupReportGenerator();
-        showScreen('screen-instrument-selection');
+        setupChartInstrumentFilter();
+        showScreen('screen-graph');
     }
 
     // --- NAVIGATION ---
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (screenId === 'screen-graph') {
-            const targetInstrument = instrumentName || instrumentSelectChart.value || getUniqueInstruments()[0];
+            const targetInstrument = instrumentName || instrumentSelectChart.value || allInstruments[0];
             instrumentSelectChart.value = targetInstrument;
             updateChart(targetInstrument);
         } else if (screenId === 'screen-new-reading' && instrumentName) {
@@ -95,48 +95,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- INSTRUMENT LIST SCREEN ---
+    // --- INSTRUMENT HANDLING ---
     function getUniqueInstruments() {
         const instrumentNames = measurements.map(m => m.instrumento);
         return [...new Set(instrumentNames)];
     }
 
-    function populateInstrumentList() {
-        const instruments = getUniqueInstruments();
-        instrumentListContainer.innerHTML = '';
-        instruments.forEach(instrument => {
-            const lastMeasurement = measurements.filter(m => m.instrumento === instrument).sort((a, b) => new Date(b.fecha) - new Date(a.fecha))[0];
-            const instrumentElement = document.createElement('a');
-            instrumentElement.href = '#';
-            instrumentElement.className = 'instrument-item flex items-center gap-4 px-4 py-3 hover:bg-slate-800/60 transition-colors duration-200';
-            instrumentElement.innerHTML = `                <div class="text-white flex items-center justify-center rounded-lg bg-slate-800 shrink-0 size-12">
-                    <span class="material-symbols-outlined text-3xl text-[var(--primary-color)]">monitoring</span>
-                </div>
-                <div class="flex flex-col justify-center">
-                    <p class="text-white text-base font-medium leading-normal">${instrument}</p>
-                    <p class="text-slate-400 text-sm font-normal leading-normal">Última medición: ${lastMeasurement ? lastMeasurement.fecha : 'N/A'}</p>
-                </div>
-                <span class="material-symbols-outlined text-slate-500 ml-auto">chevron_right</span>
-            `;
-            instrumentElement.addEventListener('click', (e) => {
-                e.preventDefault();
-                showScreen('screen-graph', instrument);
-            });
-            instrumentListContainer.appendChild(instrumentElement);
+    function setupChartInstrumentFilter() {
+        searchInstrumentChartInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredInstruments = allInstruments.filter(inst => inst.toLowerCase().includes(searchTerm));
+            populateInstrumentSelects(filteredInstruments);
         });
     }
-    
-    searchInstrumentInput.addEventListener('input', (e) => {
-        const searchTerm = e.target.value.toLowerCase();
-        document.querySelectorAll('.instrument-item').forEach(item => {
-            const instrumentName = item.querySelector('p').textContent.toLowerCase();
-            if (instrumentName.includes(searchTerm)) {
-                item.style.display = 'flex';
-            } else {
-                item.style.display = 'none';
-            }
-        });
-    });
 
     // --- REPORT GENERATOR ---
     function setupReportGenerator() {
@@ -173,16 +144,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- GRAPH SCREEN ---
-    function populateInstrumentSelects() {
-        const instruments = getUniqueInstruments();
+    function populateInstrumentSelects(instruments = allInstruments) {
+        const currentChartInstrument = instrumentSelectChart.value;
+        const currentNewReadingInstrument = newReadingInstrumentSelect.value;
+
         instrumentSelectChart.innerHTML = '';
         newReadingInstrumentSelect.innerHTML = '<option disabled selected value="">Seleccionar Instrumento</option>';
+        
         instruments.forEach(instrument => {
             const option1 = new Option(instrument, instrument);
             const option2 = new Option(instrument, instrument);
             instrumentSelectChart.add(option1);
             newReadingInstrumentSelect.add(option2);
         });
+
+        if (instruments.includes(currentChartInstrument)) {
+            instrumentSelectChart.value = currentChartInstrument;
+        } else if (instruments.length > 0) {
+            instrumentSelectChart.value = instruments[0];
+        }
+
+        if (instruments.includes(currentNewReadingInstrument)) {
+            newReadingInstrumentSelect.value = currentNewReadingInstrument;
+        }
     }
 
     instrumentSelectChart.addEventListener('change', (e) => {
@@ -190,6 +174,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function updateChart(instrumentName) {
+        if (!instrumentName) {
+            chartTitle.textContent = 'Seleccione un instrumento';
+            latestMeasurement.textContent = '--';
+            if (chart) chart.destroy();
+            return;
+        }
+
         const instrumentMeasurements = measurements
             .filter(m => m.instrumento === instrumentName)
             .sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
@@ -301,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sessionReadings.push(newMeasurement);
 
         // Refresh data in other screens
-        populateInstrumentList();
+        allInstruments = getUniqueInstruments(); // Update all instruments list
         populateInstrumentSelects();
         updateChart(instrumento);
 
