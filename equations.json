@@ -119,49 +119,49 @@
         },
         {
             "instrumento": "EF18",
-            "equation": "19.64-lectura",
+            "equation": "lectura-19.64",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 19.64
         },
         {
             "instrumento": "EF19'",
-            "equation": "19.99-lectura",
+            "equation": "lectura-19.99",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 19.99
         },
         {
             "instrumento": "EF1-TBG",
-            "equation": "96.76-lectura",
+            "equation": "lectura-96.76",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 96.76
         },
         {
             "instrumento": "EF2-TT",
-            "equation": "99.77-lectura",
+            "equation": "lectura-99.77",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 99.77
         },
         {
             "instrumento": "EF3-TV",
-            "equation": "99.93-lectura",
+            "equation": "lectura-99.93",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 99.93
         },
         {
             "instrumento": "EF1-G",
-            "equation": "93.38-lectura",
+            "equation": "lectura-93.38",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 93.38
         },
         {
             "instrumento": "EF2-G",
-            "equation": "98.15-lectura",
+            "equation": "lectura-98.15",
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 98.15
