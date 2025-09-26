@@ -31,8 +31,22 @@
 </head>
 <body class="bg-[#111c22] dark" style="font-family: Inter, 'Noto Sans', sans-serif;">
 
-    <!-- Pantalla de Gráfico de Mediciones -->
-    <div id="screen-graph">
+    <!-- PIN Screen -->
+    <div id="pin-screen" class="flex flex-col items-center justify-center h-screen bg-[#111c22]">
+        <div class="w-full max-w-xs p-6 bg-[#192b33] rounded-lg shadow-lg">
+            <h1 class="text-2xl font-bold text-center text-white mb-6">Ingrese PIN</h1>
+            <input id="pin-input" type="password" class="form-input w-full rounded-lg text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#325567] bg-[#192b33] h-14 placeholder:text-[#92b7c9] text-center text-2xl tracking-widest" placeholder="••••" maxlength="4">
+            <button id="pin-submit" class="w-full mt-6 flex items-center justify-center rounded-lg h-14 px-5 bg-primary-600 text-white text-lg font-bold hover:bg-primary-700 transition-colors">
+                Ingresar
+            </button>
+            <p id="pin-error" class="text-red-500 text-center mt-4" style="display: none;">PIN incorrecto</p>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app-container" style="display: none;">
+        <!-- Pantalla de Gráfico de Mediciones -->
+        <div id="screen-graph">
         <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#111c22] dark justify-between group/design-root overflow-x-hidden">
             <div class="flex-grow">
                 <header class="flex items-center bg-transparent p-4 pb-2 justify-between">
@@ -145,7 +159,7 @@
                     </button>
                 </div>
             </footer>
-        </div>
+            </div>
     </div>
 
     <script src="app.js"></script>

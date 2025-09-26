@@ -1,4 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const pinScreen = document.getElementById('pin-screen');
+    const appContainer = document.getElementById('app-container');
+    const pinInput = document.getElementById('pin-input');
+    const pinSubmit = document.getElementById('pin-submit');
+    const pinError = document.getElementById('pin-error');
+
+    const correctPin = '1234';
+
+    pinSubmit.addEventListener('click', () => {
+        if (pinInput.value === correctPin) {
+            pinScreen.style.display = 'none';
+            appContainer.style.display = 'block';
+            initializeApp();
+        } else {
+            pinError.style.display = 'block';
+            pinInput.value = '';
+        }
+    });
+
+    pinInput.addEventListener('input', () => {
+        pinError.style.display = 'none';
+    });
     const screens = {
         'screen-graph': document.getElementById('screen-graph'),
         'screen-new-reading': document.getElementById('screen-new-reading'),
@@ -84,26 +106,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    Promise.all([
-        loadMeasurements(),
-        fetch('equations.json').then(res => res.json()),
-    ]).then(([_, equationsData]) => {
-        equations = equationsData.equations;
-        allInstruments = getUniqueInstruments();
-        initializeApp();
-    }).catch(error => {
-        console.error("Failed to initialize the application:", error);
-        alert("No se pudieron cargar los datos necesarios para la aplicación. Por favor, revise la consola para más detalles.");
-    });
+
 
     function initializeApp() {
-        setupNavigation();
-        populateInstrumentSelects();
-        setupNewReadingForm();
-        setupReportGenerator();
-        setupChartInstrumentFilter();
-        clearDataButton.addEventListener('click', clearStoredData);
-        showScreen('screen-graph');
+        Promise.all([
+            loadMeasurements(),
+            fetch('equations.json').then(res => res.json()),
+        ]).then(([_, equationsData]) => {
+            equations = equationsData.equations;
+            allInstruments = getUniqueInstruments();
+            
+            setupNavigation();
+            populateInstrumentSelects();
+            setupNewReadingForm();
+            setupReportGenerator();
+            setupChartInstrumentFilter();
+            clearDataButton.addEventListener('click', clearStoredData);
+            showScreen('screen-graph');
+        }).catch(error => {
+            console.error("Failed to initialize the application:", error);
+            alert("No se pudieron cargar los datos necesarios para la aplicación. Por favor, revise la consola para más detalles.");
+        });
     }
 
     // --- NAVIGATION ---
