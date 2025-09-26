@@ -16,22 +16,84 @@ document.addEventListener('DOMContentLoaded', () => {
     const newReadingInstrumentSelect = document.getElementById('new-reading-instrument-select');
     const calculatedMagnitude = document.getElementById('calculated-magnitude');
     const saveReadingButton = document.getElementById('save-reading-button');
+    const clearDataButton = document.getElementById('clear-data-button');
 
     let measurements = [];
     let equations = [];
-    let sessionReadings = []; // To store new readings from this session
+    let sessionReadings = JSON.parse(localStorage.getItem('sessionReadings')) || []; // To store new readings for the report
     let chart = null;
     let allInstruments = [];
 
     // --- DATA LOADING ---
+    function loadMeasurements() {
+        return new Promise((resolve, reject) => {
+            const storedMeasurements = localStorage.getItem('measurements');
+            if (storedMeasurements) {
+                try {
+                    measurements = JSON.parse(storedMeasurements);
+                    console.log('Measurements loaded from localStorage.');
+                    resolve();
+                } catch (error) {
+                    console.error('Error parsing measurements from localStorage:', error);
+                    // If parsing fails, fallback to fetching from db.json
+                    fetch('db.json')
+                        .then(res => res.json())
+                        .then(dbData => {
+                            measurements = dbData.measurements;
+                            saveMeasurements(); // Save the fresh data to localStorage
+                            console.log('Measurements loaded from db.json after parsing error.');
+                            resolve();
+                        })
+                        .catch(fetchError => {
+                            console.error('Error fetching db.json:', fetchError);
+                            reject(fetchError);
+                        });
+                }
+            } else {
+                // Fetch from db.json if no data in localStorage
+                fetch('db.json')
+                    .then(res => res.json())
+                    .then(dbData => {
+                        measurements = dbData.measurements;
+                        saveMeasurements(); // Save the fetched data to localStorage
+                        console.log('Measurements loaded from db.json and saved to localStorage.');
+                        resolve();
+                    })
+                    .catch(fetchError => {
+                        console.error('Error fetching db.json:', fetchError);
+                        reject(fetchError);
+                    });
+            }
+        });
+    }
+
+    function saveMeasurements() {
+        try {
+            localStorage.setItem('measurements', JSON.stringify(measurements));
+            console.log('Measurements saved to localStorage.');
+        } catch (error) {
+            console.error('Error saving measurements to localStorage:', error);
+        }
+    }
+    
+    function clearStoredData() {
+        localStorage.removeItem('measurements');
+        sessionReadings = []; // Also clear session readings
+        alert('Los datos almacenados han sido eliminados. La aplicación se recargará.');
+        location.reload();
+    }
+
+
     Promise.all([
-        fetch('db.json').then(res => res.json()),
+        loadMeasurements(),
         fetch('equations.json').then(res => res.json()),
-    ]).then(([dbData, equationsData]) => {
-        measurements = dbData.measurements;
+    ]).then(([_, equationsData]) => {
         equations = equationsData.equations;
         allInstruments = getUniqueInstruments();
         initializeApp();
+    }).catch(error => {
+        console.error("Failed to initialize the application:", error);
+        alert("No se pudieron cargar los datos necesarios para la aplicación. Por favor, revise la consola para más detalles.");
     });
 
     function initializeApp() {
@@ -40,6 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setupNewReadingForm();
         setupReportGenerator();
         setupChartInstrumentFilter();
+        clearDataButton.addEventListener('click', clearStoredData);
         showScreen('screen-graph');
     }
 
@@ -109,37 +172,56 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+        function clearStoredData() {
+        localStorage.removeItem('measurements');
+        localStorage.removeItem('sessionReadings');
+        sessionReadings = []; // Also clear session readings
+        alert('Los datos almacenados han sido eliminados. La aplicación se recargará.');
+        location.reload();
+    }
+
     // --- REPORT GENERATOR ---
     function setupReportGenerator() {
         downloadReportButton.addEventListener('click', () => {
             if (sessionReadings.length === 0) {
-                alert('No hay nuevas lecturas en esta sesión para generar un reporte.');
+                alert('No hay nuevas lecturas para generar un reporte.');
                 return;
             }
 
-            const today = new Date().toISOString().split('T')[0];
-            let reportContent = `Reporte de Mediciones - ${today}\n\n`;
-            reportContent += "====================================\n";
-
-            sessionReadings.forEach(reading => {
-                const equationData = equations.find(eq => eq.instrumento === reading.instrumento);
-                const unit = equationData ? equationData.unit : '';
-
-                reportContent += `Instrumento: ${reading.instrumento}\n`;
-                reportContent += `Fecha: ${reading.fecha}\n`;
-                reportContent += `Lectura: ${reading.lectura}\n`;
-                reportContent += `Magnitud Calculada: ${reading.magnitud_fisica.toFixed(2)} ${unit}\n`;
+            try {
+                const today = new Date().toISOString().split('T')[0];
+                let reportContent = `Reporte de Mediciones - ${today}\n\n`;
                 reportContent += "====================================\n";
-            });
 
-            const blob = new Blob([reportContent], { type: 'text/plain;charset=utf-8' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = `reporte-${today}.txt`;
-            
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+                sessionReadings.forEach(reading => {
+                    const equationData = equations.find(eq => eq.instrumento === reading.instrumento);
+                    const unit = equationData ? equationData.unit : '';
+                    
+                    let magnitudeText = 'N/A';
+                    if (typeof reading.magnitud_fisica === 'number' && !isNaN(reading.magnitud_fisica)) {
+                        magnitudeText = `${reading.magnitud_fisica.toFixed(2)} ${unit}`;
+                    }
+
+                    reportContent += `Instrumento: ${reading.instrumento}\n`;
+                    reportContent += `Fecha: ${reading.fecha}\n`;
+                    reportContent += `Lectura: ${reading.lectura}\n`;
+                    reportContent += `Magnitud Calculada: ${magnitudeText}\n`;
+                    reportContent += "====================================\n";
+                });
+
+                const blob = new Blob([reportContent], { type: 'text/plain;charset=utf-8' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `reporte-${today}.txt`;
+                
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+            } catch (error) {
+                console.error("Error generating report:", error);
+                alert("Ocurrió un error al generar el reporte. Por favor, revise la consola para más detalles.");
+            }
         });
     }
 
@@ -290,6 +372,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Store in both arrays
         measurements.push(newMeasurement);
         sessionReadings.push(newMeasurement);
+        saveMeasurements(); // Save updated measurements to localStorage
+        localStorage.setItem('sessionReadings', JSON.stringify(sessionReadings));
 
         // Refresh data in other screens
         allInstruments = getUniqueInstruments(); // Update all instruments list
