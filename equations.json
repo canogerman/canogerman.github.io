@@ -1,5 +1,11 @@
 {
     "equations": [
+         {
+            "instrumento": "N.E.",
+            "equation": "lectura",
+            "variable": "Nivel de Embalse",
+            "unit": "msnm"            
+        },
         {
             "instrumento": "QA-700",
             "equation": "8/15*0.592*Math.sqrt(2*9.81)*Math.tan(Math.PI/180*(19.74/2))*Math.pow(((2.44-lectura)+0.0029), 5/2)*1000*60",

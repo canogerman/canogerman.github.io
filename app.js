@@ -49,43 +49,53 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DATA LOADING ---
     function loadMeasurements() {
         return new Promise((resolve, reject) => {
-            const storedMeasurements = localStorage.getItem('measurements');
-            if (storedMeasurements) {
-                try {
-                    measurements = JSON.parse(storedMeasurements);
-                    console.log('Measurements loaded from localStorage.');
-                    resolve();
-                } catch (error) {
-                    console.error('Error parsing measurements from localStorage:', error);
-                    // If parsing fails, fallback to fetching from db.json
-                    fetch('db.json')
-                        .then(res => res.json())
-                        .then(dbData => {
+            fetch('db.json')
+                .then(res => res.json())
+                .then(dbData => {
+                    const storedMeasurements = localStorage.getItem('measurements');
+                    if (storedMeasurements) {
+                        try {
+                            measurements = JSON.parse(storedMeasurements);
+                            const instrumentsFromDb = [...new Set(dbData.measurements.map(m => m.instrumento))];
+                            const instrumentsFromStorage = [...new Set(measurements.map(m => m.instrumento))];
+                            
+                            // Check if instrument lists are different
+                            if (instrumentsFromDb.length !== instrumentsFromStorage.length || !instrumentsFromDb.every(inst => instrumentsFromStorage.includes(inst))) {
+                                console.log('Instrument list changed. Updating from db.json.');
+                                measurements = dbData.measurements;
+                                saveMeasurements();
+                            } else {
+                                console.log('Measurements loaded from localStorage.');
+                            }
+                        } catch (error) {
+                            console.error('Error parsing measurements from localStorage. Falling back to db.json.', error);
                             measurements = dbData.measurements;
-                            saveMeasurements(); // Save the fresh data to localStorage
-                            console.log('Measurements loaded from db.json after parsing error.');
-                            resolve();
-                        })
-                        .catch(fetchError => {
-                            console.error('Error fetching db.json:', fetchError);
-                            reject(fetchError);
-                        });
-                }
-            } else {
-                // Fetch from db.json if no data in localStorage
-                fetch('db.json')
-                    .then(res => res.json())
-                    .then(dbData => {
+                            saveMeasurements();
+                        }
+                    } else {
+                        console.log('No measurements in localStorage. Loading from db.json.');
                         measurements = dbData.measurements;
-                        saveMeasurements(); // Save the fetched data to localStorage
-                        console.log('Measurements loaded from db.json and saved to localStorage.');
-                        resolve();
-                    })
-                    .catch(fetchError => {
-                        console.error('Error fetching db.json:', fetchError);
+                        saveMeasurements();
+                    }
+                    resolve();
+                })
+                .catch(fetchError => {
+                    console.error('Error fetching db.json:', fetchError);
+                    // Attempt to load from localStorage as a last resort if db.json fails
+                    const storedMeasurements = localStorage.getItem('measurements');
+                    if (storedMeasurements) {
+                        try {
+                            measurements = JSON.parse(storedMeasurements);
+                            console.log('Loaded from localStorage as fallback.');
+                            resolve();
+                        } catch (parseError) {
+                            console.error('Failed to parse localStorage fallback:', parseError);
+                            reject(fetchError); // Reject with the original fetch error
+                        }
+                    } else {
                         reject(fetchError);
-                    });
-            }
+                    }
+                });
         });
     }
 
