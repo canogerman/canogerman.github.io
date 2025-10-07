@@ -192,6 +192,1000 @@
             "variable": "Deformacion",
             "unit": "mm",
             "Lo": 61.98
+        },
+        {
+        "instrumento": "PA-A166",
+        "equation": "278.23395-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23395
+        },
+        {
+        "instrumento": "PA-B165",
+        "equation": "278.1706-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.1706
+        },
+        {
+        "instrumento": "PA-C164",
+        "equation": "278.21783-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.21783
+        },
+        {
+        "instrumento": "PA-D161",
+        "equation": "278.25283-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25283
+        },
+        {
+        "instrumento": "PA-D162",
+        "equation": "278.2697-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.2697
+        },
+        {
+        "instrumento": "PA-D163",
+        "equation": "278.2589-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.2589
+        },
+        {
+        "instrumento": "PA-D175",
+        "equation": "268.42-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.42
+        },
+        {
+        "instrumento": "PA-E158",
+        "equation": "278.28975-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.28975
+        },
+        {
+        "instrumento": "PA-E159",
+        "equation": "278.26817-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26817
+        },
+        {
+        "instrumento": "PA-E160",
+        "equation": "278.26444-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26444
+        },
+        {
+        "instrumento": "PA-E173",
+        "equation": "268.40209-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.40209
+        },
+        {
+        "instrumento": "PA-F155",
+        "equation": "278.29851-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.29851
+        },
+        {
+        "instrumento": "PA-F156",
+        "equation": "278.2935-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.2935
+        },
+        {
+        "instrumento": "PA-F157",
+        "equation": "278.35287-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.35287
+        },
+        {
+        "instrumento": "PA-F171",
+        "equation": "266.75993-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 266.75993
+        },
+        {
+        "instrumento": "PA-G143",
+        "equation": "276.2099-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.2099
+        },
+        {
+        "instrumento": "PA-G145",
+        "equation": "276.24893-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.24893
+        },
+        {
+        "instrumento": "PA-G146",
+        "equation": "278.23606-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23606
+        },
+        {
+        "instrumento": "PA-G147",
+        "equation": "278.27545-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.27545
+        },
+        {
+        "instrumento": "PA-G148",
+        "equation": "278.22031-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22031
+        },
+        {
+        "instrumento": "PA-G149",
+        "equation": "278.18992-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.18992
+        },
+        {
+        "instrumento": "PA-G150",
+        "equation": "278.18452-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.18452
+        },
+        {
+        "instrumento": "PA-G152",
+        "equation": "278.19718-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.19718
+        },
+        {
+        "instrumento": "PA-G153",
+        "equation": "278.07799-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.07799
+        },
+        {
+        "instrumento": "PA-G154",
+        "equation": "278.00739-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.00739
+        },
+        {
+        "instrumento": "PA-G169",
+        "equation": "265.84891-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 265.84891
+        },
+        {
+        "instrumento": "PA-H140",
+        "equation": "278.25024-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25024
+        },
+        {
+        "instrumento": "PA-H141",
+        "equation": "278.23328-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23328
+        },
+        {
+        "instrumento": "PA-H142",
+        "equation": "278.23526-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23526
+        },
+        {
+        "instrumento": "PA-I128",
+        "equation": "276.38074-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.38074
+        },
+        {
+        "instrumento": "PA-I130",
+        "equation": "276.25448-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.25448
+        },
+        {
+        "instrumento": "PA-I131",
+        "equation": "278.29553-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.29553
+        },
+        {
+        "instrumento": "PA-I132",
+        "equation": "278.29768-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.29768
+        },
+        {
+        "instrumento": "PA-I133",
+        "equation": "278.27947-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.27947
+        },
+        {
+        "instrumento": "PA-I134",
+        "equation": "278.28499-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.28499
+        },
+        {
+        "instrumento": "PA-I135",
+        "equation": "278.25487-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25487
+        },
+        {
+        "instrumento": "PA-I137",
+        "equation": "278.12641-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.12641
+        },
+        {
+        "instrumento": "PA-I138",
+        "equation": "278.12688-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.12688
+        },
+        {
+        "instrumento": "PA-I139",
+        "equation": "278.11189-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.11189
+        },
+        {
+        "instrumento": "PA-J23",
+        "equation": "275.2573-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.2573
+        },
+        {
+        "instrumento": "PA-J24",
+        "equation": "275.33162-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.33162
+        },
+        {
+        "instrumento": "PA-J25",
+        "equation": "275.31145-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.31145
+        },
+        {
+        "instrumento": "PA-J26",
+        "equation": "275.31898-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.31898
+        },
+        {
+        "instrumento": "PA-J27",
+        "equation": "275.26721-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.26721
+        },
+        {
+        "instrumento": "PA-J28",
+        "equation": "275.24031-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.24031
+        },
+        {
+        "instrumento": "PA-J29",
+        "equation": "278.27382-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.27382
+        },
+        {
+        "instrumento": "PA-J30",
+        "equation": "278.26585-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26585
+        },
+        {
+        "instrumento": "PA-J31",
+        "equation": "278.26345-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26345
+        },
+        {
+        "instrumento": "PA-J32",
+        "equation": "278.26191-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26191
+        },
+        {
+        "instrumento": "PA-J33",
+        "equation": "278.01263-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.01263
+        },
+        {
+        "instrumento": "PA-J34",
+        "equation": "278.24821-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24821
+        },
+        {
+        "instrumento": "PA-J35",
+        "equation": "278.25322-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25322
+        },
+        {
+        "instrumento": "PA-J36",
+        "equation": "269.00131-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 269.00131
+        },
+        {
+        "instrumento": "PA-J37",
+        "equation": "268.96055-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.96055
+        },
+        {
+        "instrumento": "PA-J38",
+        "equation": "268.9713-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.9713
+        },
+        {
+        "instrumento": "PA-J39",
+        "equation": "268.98713-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.98713
+        },
+        {
+        "instrumento": "PA-J40",
+        "equation": "268.97166-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.97166
+        },
+        {
+        "instrumento": "PA-K41",
+        "equation": "275.55094-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.55094
+        },
+        {
+        "instrumento": "PA-K42",
+        "equation": "275.57413-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.57413
+        },
+        {
+        "instrumento": "PA-K43",
+        "equation": "275.5617-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.5617
+        },
+        {
+        "instrumento": "PA-K44",
+        "equation": "275.54491-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.54491
+        },
+        {
+        "instrumento": "PA-K45",
+        "equation": "275.51093-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.51093
+        },
+        {
+        "instrumento": "PA-K46",
+        "equation": "275.50172-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.50172
+        },
+        {
+        "instrumento": "PA-K47",
+        "equation": "278.24921-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24921
+        },
+        {
+        "instrumento": "PA-K48",
+        "equation": "278.23666-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23666
+        },
+        {
+        "instrumento": "PA-K49",
+        "equation": "278.22753-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22753
+        },
+        {
+        "instrumento": "PA-K50",
+        "equation": "278.22904-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22904
+        },
+        {
+        "instrumento": "PA-K51",
+        "equation": "278.21303-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.21303
+        },
+        {
+        "instrumento": "PA-K52",
+        "equation": "278.20756-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.20756
+        },
+        {
+        "instrumento": "PA-K53",
+        "equation": "278.21263-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.21263
+        },
+        {
+        "instrumento": "PA-K54",
+        "equation": "273.9184-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 273.9184
+        },
+        {
+        "instrumento": "PA-K55",
+        "equation": "273.9324-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 273.9324
+        },
+        {
+        "instrumento": "PA-K56",
+        "equation": "273.9288-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 273.9288
+        },
+        {
+        "instrumento": "PA-K57",
+        "equation": "273.8412-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 273.8412
+        },
+        {
+        "instrumento": "PA-K58",
+        "equation": "273.8039-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 273.8039
+        },
+        {
+        "instrumento": "PA-N59",
+        "equation": "275.99288-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.99288
+        },
+        {
+        "instrumento": "PA-N60",
+        "equation": "276.18067-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.18067
+        },
+        {
+        "instrumento": "PA-N61",
+        "equation": "276.05949-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.05949
+        },
+        {
+        "instrumento": "PA-N62",
+        "equation": "276.12759-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 276.12759
+        },
+        {
+        "instrumento": "PA-N63",
+        "equation": "275.989-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.989
+        },
+        {
+        "instrumento": "PA-N64",
+        "equation": "275.89685-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.89685
+        },
+        {
+        "instrumento": "PA-N65",
+        "equation": "278.26723-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26723
+        },
+        {
+        "instrumento": "PA-N66",
+        "equation": "278.26019-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26019
+        },
+        {
+        "instrumento": "PA-N67",
+        "equation": "278.26305-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26305
+        },
+        {
+        "instrumento": "PA-N68",
+        "equation": "278.24626-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24626
+        },
+        {
+        "instrumento": "PA-N69",
+        "equation": "278.24875-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24875
+        },
+        {
+        "instrumento": "PA-N70",
+        "equation": "278.22249-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22249
+        },
+        {
+        "instrumento": "PA-N71",
+        "equation": "278.24602-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24602
+        },
+        {
+        "instrumento": "PA-N72",
+        "equation": "268.71198-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.71198
+        },
+        {
+        "instrumento": "PA-N73",
+        "equation": "268.67959-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.67959
+        },
+        {
+        "instrumento": "PA-N74",
+        "equation": "268.72437-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.72437
+        },
+        {
+        "instrumento": "PA-N75",
+        "equation": "268.73161-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.73161
+        },
+        {
+        "instrumento": "PA-O77",
+        "equation": "275.66055-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.66055
+        },
+        {
+        "instrumento": "PA-O78",
+        "equation": "275.51439-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.51439
+        },
+        {
+        "instrumento": "PA-O79",
+        "equation": "275.61802-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.61802
+        },
+        {
+        "instrumento": "PA-O80",
+        "equation": "275.49822-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.49822
+        },
+        {
+        "instrumento": "PA-O81",
+        "equation": "275.40493-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.40493
+        },
+        {
+        "instrumento": "PA-O82",
+        "equation": "275.61697-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.61697
+        },
+        {
+        "instrumento": "PA-O83",
+        "equation": "278.23582-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23582
+        },
+        {
+        "instrumento": "PA-O84",
+        "equation": "278.26038-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26038
+        },
+        {
+        "instrumento": "PA-O85",
+        "equation": "278.23185-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23185
+        },
+        {
+        "instrumento": "PA-O86",
+        "equation": "278.2045-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.2045
+        },
+        {
+        "instrumento": "PA-O87",
+        "equation": "278.30245-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.30245
+        },
+        {
+        "instrumento": "PA-O88",
+        "equation": "278.19603-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.19603
+        },
+        {
+        "instrumento": "PA-O89",
+        "equation": "278.19549-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.19549
+        },
+        {
+        "instrumento": "PA-O90",
+        "equation": "268.95346-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.95346
+        },
+        {
+        "instrumento": "PA-O91",
+        "equation": "268.89708-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.89708
+        },
+        {
+        "instrumento": "PA-O92",
+        "equation": "268.87497-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.87497
+        },
+        {
+        "instrumento": "PA-O93",
+        "equation": "268.9137-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.9137
+        },
+        {
+        "instrumento": "PA-P95",
+        "equation": "275.28143-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.28143
+        },
+        {
+        "instrumento": "PA-P96",
+        "equation": "275.36022-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.36022
+        },
+        {
+        "instrumento": "PA-P97",
+        "equation": "275.35628-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.35628
+        },
+        {
+        "instrumento": "PA-P98",
+        "equation": "275.60346-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.60346
+        },
+        {
+        "instrumento": "PA-P99",
+        "equation": "275.41488-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.41488
+        },
+        {
+        "instrumento": "PA-P100",
+        "equation": "275.33084-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.33084
+        },
+        {
+        "instrumento": "PA-P101",
+        "equation": "278.26178-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26178
+        },
+        {
+        "instrumento": "PA-P102",
+        "equation": "278.24936-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24936
+        },
+        {
+        "instrumento": "PA-P103",
+        "equation": "278.25082-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25082
+        },
+        {
+        "instrumento": "PA-P104",
+        "equation": "278.2397-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.2397
+        },
+        {
+        "instrumento": "PA-P105",
+        "equation": "278.22101-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22101
+        },
+        {
+        "instrumento": "PA-P106",
+        "equation": "278.20664-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.20664
+        },
+        {
+        "instrumento": "PA-P107",
+        "equation": "278.20701-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.20701
+        },
+        {
+        "instrumento": "PA-P108",
+        "equation": "268.73433-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.73433
+        },
+        {
+        "instrumento": "PA-P109",
+        "equation": "268.85519-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.85519
+        },
+        {
+        "instrumento": "PA-P110",
+        "equation": "268.76872-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.76872
+        },
+        {
+        "instrumento": "PA-P111",
+        "equation": "268.7461-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.7461
+        },
+        {
+        "instrumento": "PA-U113",
+        "equation": "275.21692-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.21692
+        },
+        {
+        "instrumento": "PA-U114",
+        "equation": "275.36433-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.36433
+        },
+        {
+        "instrumento": "PA-U115",
+        "equation": "275.17442-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.17442
+        },
+        {
+        "instrumento": "PA-U116",
+        "equation": "275.36228-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.36228
+        },
+        {
+        "instrumento": "PA-U117",
+        "equation": "275.27868-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 275.27868
+        },
+        {
+        "instrumento": "PA-U118",
+        "equation": "278.23992-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23992
+        },
+        {
+        "instrumento": "PA-U119",
+        "equation": "278.25342-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.25342
+        },
+        {
+        "instrumento": "PA-U120",
+        "equation": "278.21301-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.21301
+        },
+        {
+        "instrumento": "PA-U121",
+        "equation": "278.24958-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.24958
+        },
+        {
+        "instrumento": "PA-U122",
+        "equation": "278.23177-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.23177
+        },
+        {
+        "instrumento": "PA-U123",
+        "equation": "278.22979-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.22979
+        },
+        {
+        "instrumento": "PA-U127",
+        "equation": "268.95924-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 268.95924
+        },
+        {
+        "instrumento": "PA-V187",
+        "equation": "278.26637-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.26637
+        },
+        {
+        "instrumento": "PA-V188",
+        "equation": "262.28125-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 262.28125
+        },
+        {
+        "instrumento": "PA-W190",
+        "equation": "278.29479-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 278.29479
+        },
+        {
+        "instrumento": "PA-W191",
+        "equation": "267.74609-lectura",
+        "variable": "Nivel Piezometrico",
+        "unit": "msnm",
+        "cota_boca": 267.74609
         }
     ]
 }

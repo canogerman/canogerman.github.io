@@ -1,9 +1,9 @@
 {
   "measurements": [
     {
-    "fecha": "2025-01-01",
-    "instrumento": "N.E.",
-    "magnitud_fisica": 271.73
+      "fecha": "2025-01-01",
+      "instrumento": "N.E.",
+      "magnitud_fisica": 271.73
     },
     {
       "fecha": "2025-01-02",
@@ -3556,9 +3556,9 @@
       "magnitud_fisica": 10.072
     },
     {
-    "fecha": "2025-01-27",
-    "instrumento": "EF18",
-    "magnitud_fisica": 0.703
+      "fecha": "2025-01-27",
+      "instrumento": "EF18",
+      "magnitud_fisica": 0.703
     },
     {
       "fecha": "2025-01-27",
@@ -3954,6 +3954,3896 @@
       "fecha": "2025-08-29",
       "instrumento": "TX1-TBG T-T",
       "magnitud_fisica": 0.047
+    },    
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 254.56
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.82
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 265.66
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 270.9
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.39
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.72
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.18
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.88
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.41
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 270.62
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.68
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-23",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 254.57
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.82
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.5
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 270.95
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.41
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.39
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.17
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.88
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.42
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 270.63
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.35
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-26",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 253.65
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.82
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.60
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 271.07
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.43
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.37
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.18
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.87
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.39
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 271.15
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.35
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 253.58
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.82
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.53
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 271.02
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.37
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.30
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.16
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.87
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.39
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 271.26
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.27
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 253.75594
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.8217
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.57491
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 271.06493
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.34572
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.49321
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.16166
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.87853
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.39204
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 271.33656
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.5534
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-A166",
+        "magnitud_fisica": 272.183
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-B165",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-C164",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-D162",
+        "magnitud_fisica": 267.219
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-D163",
+        "magnitud_fisica": 267.048
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-D175",
+        "magnitud_fisica": 265.214
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-E158",
+        "magnitud_fisica": 265.973
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-E159",
+        "magnitud_fisica": 267.482
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-E160",
+        "magnitud_fisica": 265.538
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-E173",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-F155",
+        "magnitud_fisica": 264.207
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-F156",
+        "magnitud_fisica": 264.161
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-F157",
+        "magnitud_fisica": 264.612
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-F171",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G143",
+        "magnitud_fisica": 264.603
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G145",
+        "magnitud_fisica": 272.533
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G146",
+        "magnitud_fisica": 263.475
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G147",
+        "magnitud_fisica": 263.647
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G148",
+        "magnitud_fisica": 263.919
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G149",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G150",
+        "magnitud_fisica": 269.92
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G153",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G154",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-05",
+        "instrumento": "PA-G169",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-H140",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-H141",
+        "magnitud_fisica": 263.69628
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-H142",
+        "magnitud_fisica": 263.33926
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I128",
+        "magnitud_fisica": 262.68174
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I131",
+        "magnitud_fisica": 262.02953
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I132",
+        "magnitud_fisica": 264.15168
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I135",
+        "magnitud_fisica": 267.75887
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I137",
+        "magnitud_fisica": 260.66841
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-I138",
+        "magnitud_fisica": 264.94188
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J23",
+        "magnitud_fisica": 255.0283
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J24",
+        "magnitud_fisica": 258.26162
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J25",
+        "magnitud_fisica": 263.62445
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J26",
+        "magnitud_fisica": 266.35198
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J27",
+        "magnitud_fisica": 272.19221
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J28",
+        "magnitud_fisica": 273.76431
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J29",
+        "magnitud_fisica": 254.17782
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J30",
+        "magnitud_fisica": 254.28385
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J31",
+        "magnitud_fisica": 260.56945
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J32",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J33",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J34",
+        "magnitud_fisica": 271.30821
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J35",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J36",
+        "magnitud_fisica": 253.59731
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J37",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J38",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J39",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-J40",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 254.51094
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.8207
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.44491
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 270.84393
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.32172
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 253.35021
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.18366
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.88353
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.40604
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 270.51656
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 252.4684
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-13",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N59",
+        "magnitud_fisica": 254.59788
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N60",
+        "magnitud_fisica": 257.01367
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N61",
+        "magnitud_fisica": 259.91549
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N62",
+        "magnitud_fisica": 262.15159
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N63",
+        "magnitud_fisica": 268.374
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N64",
+        "magnitud_fisica": 273.14085
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N65",
+        "magnitud_fisica": 251.66523
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N66",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N69",
+        "magnitud_fisica": 263.61775
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N70",
+        "magnitud_fisica": 269.95649
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N71",
+        "magnitud_fisica": 272.30702
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N72",
+        "magnitud_fisica": 253.18798
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N73",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N74",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-N75",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O77",
+        "magnitud_fisica": 253.96255
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O78",
+        "magnitud_fisica": 257.24839
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O79",
+        "magnitud_fisica": 261.78502
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O80",
+        "magnitud_fisica": 267.04922
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O81",
+        "magnitud_fisica": 271.52393
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O82",
+        "magnitud_fisica": 273.67597
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O84",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O85",
+        "magnitud_fisica": 255.89685
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O86",
+        "magnitud_fisica": 262.4465
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O87",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O88",
+        "magnitud_fisica": 271.01103
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O89",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O90",
+        "magnitud_fisica": 251.91446
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O91",
+        "magnitud_fisica": 253.19508
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O92",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-20",
+        "instrumento": "PA-O93",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P95",
+        "magnitud_fisica": 253.51943
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P98",
+        "magnitud_fisica": 267.05246
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P99",
+        "magnitud_fisica": 270.62988
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P100",
+        "magnitud_fisica": 273.82184
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P101",
+        "magnitud_fisica": 257.79278
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P104",
+        "magnitud_fisica": 268.9837
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P105",
+        "magnitud_fisica": 267.58201
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P107",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P108",
+        "magnitud_fisica": 251.53233
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P109",
+        "magnitud_fisica": 253.45919
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P110",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-P111",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U113",
+        "magnitud_fisica": 260.40592
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U114",
+        "magnitud_fisica": 264.67033
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U115",
+        "magnitud_fisica": 267.12342
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U116",
+        "magnitud_fisica": 272.25928
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U117",
+        "magnitud_fisica": 273.67468
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U118",
+        "magnitud_fisica": 257.50692
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U120",
+        "magnitud_fisica": 263.24501
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U121",
+        "magnitud_fisica": 268.38258
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U122",
+        "magnitud_fisica": 272.52577
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U123",
+        "magnitud_fisica": 274.43579
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-U127",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-V187",
+        "magnitud_fisica": 263.02037
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-V188",
+        "magnitud_fisica": 260.32525
+    },
+    {
+        "fecha": "2025-05-30",
+        "instrumento": "PA-W191",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 253.65
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.82
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.57
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 271.04
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.30
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.37
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.16
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.87
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.39
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 271.35
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.33
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-A166",
+        "magnitud_fisica": 272.384
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-B165",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-C164",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-D162",
+        "magnitud_fisica": 267.48
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-D163",
+        "magnitud_fisica": 267.632
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-D175",
+        "magnitud_fisica": 265.21
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-E158",
+        "magnitud_fisica": 266.178
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-E159",
+        "magnitud_fisica": 267.513
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-E160",
+        "magnitud_fisica": 265.54
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-E173",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-F155",
+        "magnitud_fisica": 264.454
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-F156",
+        "magnitud_fisica": 264.358
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-F157",
+        "magnitud_fisica": 264.62
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-F171",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G143",
+        "magnitud_fisica": 265.182
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G145",
+        "magnitud_fisica": 273.325
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G146",
+        "magnitud_fisica": 263.733
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G147",
+        "magnitud_fisica": 263.96
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G148",
+        "magnitud_fisica": 264.246
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G149",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G150",
+        "magnitud_fisica": 271.584
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G153",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G154",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-03",
+        "instrumento": "PA-G169",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-H140",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-H141",
+        "magnitud_fisica": 263.69928
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-H142",
+        "magnitud_fisica": 263.35426
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I128",
+        "magnitud_fisica": 262.70074
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I131",
+        "magnitud_fisica": 261.99653
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I132",
+        "magnitud_fisica": 263.12668
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I135",
+        "magnitud_fisica": 267.83987
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I137",
+        "magnitud_fisica": 260.77441
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-I138",
+        "magnitud_fisica": 264.93688
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J23",
+        "magnitud_fisica": 254.4973
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J24",
+        "magnitud_fisica": 258.26462
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J25",
+        "magnitud_fisica": 263.78445
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J26",
+        "magnitud_fisica": 266.47398
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J27",
+        "magnitud_fisica": 272.62821
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J28",
+        "magnitud_fisica": 273.78031
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J29",
+        "magnitud_fisica": 254.09482
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J30",
+        "magnitud_fisica": 254.16185
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J31",
+        "magnitud_fisica": 260.54945
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J32",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J33",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J34",
+        "magnitud_fisica": 271.38421
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J35",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J36",
+        "magnitud_fisica": 252.90631
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J37",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J38",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J39",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-J40",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K41",
+        "magnitud_fisica": 253.57594
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K43",
+        "magnitud_fisica": 260.8227
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K44",
+        "magnitud_fisica": 266.53191
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K45",
+        "magnitud_fisica": 271.01993
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K46",
+        "magnitud_fisica": 273.37472
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K47",
+        "magnitud_fisica": 252.30221
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K48",
+        "magnitud_fisica": 254.16466
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K49",
+        "magnitud_fisica": 255.86653
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K50",
+        "magnitud_fisica": 260.38604
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K52",
+        "magnitud_fisica": 271.26156
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K53",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K54",
+        "magnitud_fisica": 251.2724
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K55",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K56",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K57",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-10",
+        "instrumento": "PA-K58",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N59",
+        "magnitud_fisica": 254.58488
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N60",
+        "magnitud_fisica": 257.07267
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N61",
+        "magnitud_fisica": 259.91449
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N62",
+        "magnitud_fisica": 262.17759
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N63",
+        "magnitud_fisica": 268.393
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N64",
+        "magnitud_fisica": 273.16585
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N65",
+        "magnitud_fisica": 251.75023
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N66",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N69",
+        "magnitud_fisica": 263.60875
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N70",
+        "magnitud_fisica": 270.13249
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N71",
+        "magnitud_fisica": 272.60502
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N72",
+        "magnitud_fisica": 253.19198
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N73",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N74",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-N75",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O77",
+        "magnitud_fisica": 253.93855
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O78",
+        "magnitud_fisica": 257.18139
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O79",
+        "magnitud_fisica": 261.71402
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O80",
+        "magnitud_fisica": 266.98722
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O81",
+        "magnitud_fisica": 271.44893
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O82",
+        "magnitud_fisica": 273.51397
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O84",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O85",
+        "magnitud_fisica": 255.87185
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O86",
+        "magnitud_fisica": 262.3435
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O87",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O88",
+        "magnitud_fisica": 270.91403
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O89",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O90",
+        "magnitud_fisica": 251.85246
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O91",
+        "magnitud_fisica": 253.09408
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O92",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-17",
+        "instrumento": "PA-O93",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P95",
+        "magnitud_fisica": 253.48843
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P98",
+        "magnitud_fisica": 267.37346
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P99",
+        "magnitud_fisica": 270.60488
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P100",
+        "magnitud_fisica": 273.66884
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P101",
+        "magnitud_fisica": 257.80078
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P104",
+        "magnitud_fisica": 268.2057
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P105",
+        "magnitud_fisica": 266.69301
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P107",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P108",
+        "magnitud_fisica": 251.57433
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P109",
+        "magnitud_fisica": 253.48419
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P110",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-P111",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U113",
+        "magnitud_fisica": 260.31092
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U114",
+        "magnitud_fisica": 264.62333
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U115",
+        "magnitud_fisica": 267.01942
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U116",
+        "magnitud_fisica": 272.17428
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U117",
+        "magnitud_fisica": 273.57668
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U118",
+        "magnitud_fisica": 257.53092
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U120",
+        "magnitud_fisica": 263.22701
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U121",
+        "magnitud_fisica": 268.40558
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U122",
+        "magnitud_fisica": 272.47477
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U123",
+        "magnitud_fisica": 274.40779
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-U127",
+        "magnitud_fisica": null
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-V187",
+        "magnitud_fisica": 263.00037
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-V188",
+        "magnitud_fisica": 260.28625
+    },
+    {
+        "fecha": "2025-06-24",
+        "instrumento": "PA-W191",
+        "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.59
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.82
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.49
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 271.0
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 273.26
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.33
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.13
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.87
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.39
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.31
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.25
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.5793
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.25862
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.83245
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.46398
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 272.17221
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.47631
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 254.02682
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.15185
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.52945
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.34021
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.86131
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.53
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.82
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.5
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.95
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 273.1
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.27
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.16
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.9
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.4
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.33
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.23
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.5883
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.25062
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.83745
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.45798
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 272.14521
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.41931
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 253.97582
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.14385
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.51345
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.32621
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.84031
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.51
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.81
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.49
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.94
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 273.05
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.25
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.14
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.91
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.43
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.36
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.21
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-15",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.4773
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.26162
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.77545
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.39498
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 271.96121
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.13731
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 253.98982
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.16785
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.51945
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.25321
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.85131
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.44
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.82
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.37
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.74
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 272.81
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.16
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.16
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.87
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.39
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.4
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": 272.28
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.18
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-29",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.3573
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.26062
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.60345
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.16598
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 271.68321
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.01331
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 253.96382
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.16685
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.51345
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.04621
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.83131
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.41
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.82
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.16
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.48
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 272.62
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.19
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.15
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.89
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.48
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.36
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": 272.04
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.18
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.3353
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.25262
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.59145
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.15298
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 271.65121
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 272.97331
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 253.94282
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.16385
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.50245
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 270.99321
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.82031
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.4
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.82
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.19
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.5
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 272.59
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.17
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.15
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.89
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.53
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.5
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": 272.03
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.17
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-11",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-A166",
+      "magnitud_fisica": 272.185
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-B165",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-C164",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-D162",
+      "magnitud_fisica": 267.363
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-D163",
+      "magnitud_fisica": 267.462
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-D175",
+      "magnitud_fisica": 265.209
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-E158",
+      "magnitud_fisica": 266.094
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-E159",
+      "magnitud_fisica": 267.529
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-E160",
+      "magnitud_fisica": 265.531
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-E173",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-F155",
+      "magnitud_fisica": 264.419
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-F156",
+      "magnitud_fisica": 264.315
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-F157",
+      "magnitud_fisica": 264.585
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-F171",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G143",
+      "magnitud_fisica": 265.056
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G145",
+      "magnitud_fisica": 273.035
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G146",
+      "magnitud_fisica": 263.685
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G147",
+      "magnitud_fisica": 263.905
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G148",
+      "magnitud_fisica": 264.345
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G149",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G150",
+      "magnitud_fisica": 271.09
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G153",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G154",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-01",
+      "instrumento": "PA-G169",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-H140",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-H141",
+      "magnitud_fisica": 263.58528
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-H142",
+      "magnitud_fisica": 263.28326
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I128",
+      "magnitud_fisica": 262.63174
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I131",
+      "magnitud_fisica": 261.89453
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I132",
+      "magnitud_fisica": 264.51568
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I135",
+      "magnitud_fisica": 267.79287
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I137",
+      "magnitud_fisica": 260.81641
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-I138",
+      "magnitud_fisica": 264.92588
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.5793
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.25862
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.83245
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.46398
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 272.17221
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.47631
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 254.02682
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.15185
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.52945
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.34021
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.86131
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.52594
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.8187
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.49891
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.95293
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 273.09872
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.26821
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.15666
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.89653
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.40204
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.33456
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.2334
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-07",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N59",
+      "magnitud_fisica": 254.39688
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N60",
+      "magnitud_fisica": 257.16767
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N61",
+      "magnitud_fisica": 259.91349
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N62",
+      "magnitud_fisica": 262.23659
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N63",
+      "magnitud_fisica": 268.487
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N64",
+      "magnitud_fisica": 273.04685
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N65",
+      "magnitud_fisica": 251.43423
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N66",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N69",
+      "magnitud_fisica": 263.47675
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N70",
+      "magnitud_fisica": 269.81149
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N71",
+      "magnitud_fisica": 272.64402
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N72",
+      "magnitud_fisica": 253.12098
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N73",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N74",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-N75",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O77",
+      "magnitud_fisica": 253.84455
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O78",
+      "magnitud_fisica": 256.99239
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O79",
+      "magnitud_fisica": 261.51702
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O80",
+      "magnitud_fisica": 266.89622
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O81",
+      "magnitud_fisica": 271.28293
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O82",
+      "magnitud_fisica": 273.42497
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O84",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O85",
+      "magnitud_fisica": 255.79185
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O86",
+      "magnitud_fisica": 262.2325
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O87",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O88",
+      "magnitud_fisica": 270.79303
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O89",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O90",
+      "magnitud_fisica": 251.73146
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O91",
+      "magnitud_fisica": 253.07508
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O92",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-18",
+      "instrumento": "PA-O93",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P95",
+      "magnitud_fisica": 253.36143
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P98",
+      "magnitud_fisica": 267.14146
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P99",
+      "magnitud_fisica": 270.45988
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P100",
+      "magnitud_fisica": 273.53784
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P101",
+      "magnitud_fisica": 257.80678
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P104",
+      "magnitud_fisica": 267.9287
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P105",
+      "magnitud_fisica": 266.33501
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P107",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P108",
+      "magnitud_fisica": 251.58833
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P109",
+      "magnitud_fisica": 253.49719
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P110",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-P111",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U113",
+      "magnitud_fisica": 260.09392
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U114",
+      "magnitud_fisica": 264.47133
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U115",
+      "magnitud_fisica": 266.88642
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U116",
+      "magnitud_fisica": 272.02828
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U117",
+      "magnitud_fisica": 273.43168
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U118",
+      "magnitud_fisica": 257.53392
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U120",
+      "magnitud_fisica": 263.12001
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U121",
+      "magnitud_fisica": 268.44758
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U122",
+      "magnitud_fisica": 272.37177
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U123",
+      "magnitud_fisica": 274.28279
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-U127",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-V187",
+      "magnitud_fisica": 262.96537
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-V188",
+      "magnitud_fisica": 260.17225
+    },
+    {
+      "fecha": "2025-07-22",
+      "instrumento": "PA-W191",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-A166",
+      "magnitud_fisica": 271.951
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-B165",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-C164",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-D162",
+      "magnitud_fisica": 267.325
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-D163",
+      "magnitud_fisica": 267.549
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-D175",
+      "magnitud_fisica": 265.215
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-E158",
+      "magnitud_fisica": 266.015
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-E159",
+      "magnitud_fisica": 267.545
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-E160",
+      "magnitud_fisica": 265.545
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-E173",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-F155",
+      "magnitud_fisica": 264.377
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-F156",
+      "magnitud_fisica": 264.302
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-F157",
+      "magnitud_fisica": 264.589
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-F171",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G143",
+      "magnitud_fisica": 265.043
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G145",
+      "magnitud_fisica": 272.613
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G146",
+      "magnitud_fisica": 263.63
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G147",
+      "magnitud_fisica": 263.828
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G148",
+      "magnitud_fisica": 264.534
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G149",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G150",
+      "magnitud_fisica": 270.482
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G153",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G154",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-01",
+      "instrumento": "PA-G169",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-H140",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-H141",
+      "magnitud_fisica": 263.45328
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-H142",
+      "magnitud_fisica": 263.14826
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I128",
+      "magnitud_fisica": 262.42674
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I131",
+      "magnitud_fisica": 261.76853
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I132",
+      "magnitud_fisica": 261.66268
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I135",
+      "magnitud_fisica": 267.57987
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I137",
+      "magnitud_fisica": 260.84441
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-I138",
+      "magnitud_fisica": 264.92788
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J23",
+      "magnitud_fisica": 254.3573
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J24",
+      "magnitud_fisica": 258.26062
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J25",
+      "magnitud_fisica": 263.60345
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J26",
+      "magnitud_fisica": 266.16598
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J27",
+      "magnitud_fisica": 271.68321
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J28",
+      "magnitud_fisica": 273.01331
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J29",
+      "magnitud_fisica": 253.96382
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J30",
+      "magnitud_fisica": 254.16685
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J31",
+      "magnitud_fisica": 260.51345
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J32",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J33",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J34",
+      "magnitud_fisica": 271.04621
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J35",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J36",
+      "magnitud_fisica": 252.83131
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J37",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J38",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J39",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-J40",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K41",
+      "magnitud_fisica": 253.40594
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K43",
+      "magnitud_fisica": 260.8207
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K44",
+      "magnitud_fisica": 266.15891
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K45",
+      "magnitud_fisica": 270.48393
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K46",
+      "magnitud_fisica": 272.62072
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K47",
+      "magnitud_fisica": 252.19221
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K48",
+      "magnitud_fisica": 254.15166
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K49",
+      "magnitud_fisica": 255.88853
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K50",
+      "magnitud_fisica": 260.47904
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K52",
+      "magnitud_fisica": 271.35756
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K53",
+      "magnitud_fisica": 272.04363
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K54",
+      "magnitud_fisica": 251.1844
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K55",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K56",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K57",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-05",
+      "instrumento": "PA-K58",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N59",
+      "magnitud_fisica": 254.75788
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N60",
+      "magnitud_fisica": 257.21967
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N61",
+      "magnitud_fisica": 259.91849
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N62",
+      "magnitud_fisica": 262.27559
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N63",
+      "magnitud_fisica": 268.234
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N64",
+      "magnitud_fisica": 272.44485
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N65",
+      "magnitud_fisica": 251.82923
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N66",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N69",
+      "magnitud_fisica": 263.64375
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N70",
+      "magnitud_fisica": 269.95849
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N71",
+      "magnitud_fisica": 272.23502
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N72",
+      "magnitud_fisica": 253.18898
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N73",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N74",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-N75",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O77",
+      "magnitud_fisica": 254.11955
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O78",
+      "magnitud_fisica": 257.36639
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O79",
+      "magnitud_fisica": 262.01502
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O80",
+      "magnitud_fisica": 266.97922
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O81",
+      "magnitud_fisica": 271.12493
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O82",
+      "magnitud_fisica": 272.87497
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O84",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O85",
+      "magnitud_fisica": 255.93285
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O86",
+      "magnitud_fisica": 261.6465
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O87",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O88",
+      "magnitud_fisica": 270.73703
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O89",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O90",
+      "magnitud_fisica": 251.83146
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O91",
+      "magnitud_fisica": 253.19608
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O92",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-12",
+      "instrumento": "PA-O93",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P95",
+      "magnitud_fisica": 253.36043
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P98",
+      "magnitud_fisica": 267.12746
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P99",
+      "magnitud_fisica": 270.07988
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P100",
+      "magnitud_fisica": 272.89984
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P101",
+      "magnitud_fisica": 257.97678
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P104",
+      "magnitud_fisica": 265.0407
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P105",
+      "magnitud_fisica": 270.01701
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P107",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P108",
+      "magnitud_fisica": 251.48633
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P109",
+      "magnitud_fisica": 253.56719
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P110",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-P111",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U113",
+      "magnitud_fisica": 260.01492
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U114",
+      "magnitud_fisica": 264.42133
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U115",
+      "magnitud_fisica": 266.82342
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U116",
+      "magnitud_fisica": 271.96028
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U117",
+      "magnitud_fisica": 273.36768
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U118",
+      "magnitud_fisica": 257.52392
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U120",
+      "magnitud_fisica": 263.10101
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U121",
+      "magnitud_fisica": 268.39958
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U122",
+      "magnitud_fisica": 272.29877
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U123",
+      "magnitud_fisica": 274.23779
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-U127",
+      "magnitud_fisica": null
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-V187",
+      "magnitud_fisica": 262.90037
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-V188",
+      "magnitud_fisica": 260.06925
+    },
+    {
+      "fecha": "2025-08-19",
+      "instrumento": "PA-W191",
+      "magnitud_fisica": null
     }
   ]
 }
