@@ -125,9 +125,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ]).then(([_, equationsData]) => {
             equations = equationsData.equations;
             allInstruments = getUniqueInstruments();
-            
+            const equationInstruments = equations.map(eq => eq.instrumento);
+
             setupNavigation();
-            populateInstrumentSelects();
+            populateInstrumentSelects(allInstruments, equationInstruments);
             setupNewReadingForm();
             setupReportGenerator();
             setupChartInstrumentFilter();
@@ -201,7 +202,8 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInstrumentChartInput.addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();
             const filteredInstruments = allInstruments.filter(inst => inst.toLowerCase().includes(searchTerm));
-            populateInstrumentSelects(filteredInstruments);
+            const newReadingInstruments = equations.map(eq => eq.instrumento);
+            populateInstrumentSelects(filteredInstruments, newReadingInstruments);
         });
     }
 
@@ -259,27 +261,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- GRAPH SCREEN ---
-    function populateInstrumentSelects(instruments = allInstruments) {
+    function populateInstrumentSelects(chartInstruments, newReadingInstruments) {
         const currentChartInstrument = instrumentSelectChart.value;
         const currentNewReadingInstrument = newReadingInstrumentSelect.value;
 
         instrumentSelectChart.innerHTML = '';
         newReadingInstrumentSelect.innerHTML = '<option disabled selected value="">Seleccionar Instrumento</option>';
         
-        instruments.forEach(instrument => {
-            const option1 = new Option(instrument, instrument);
-            const option2 = new Option(instrument, instrument);
-            instrumentSelectChart.add(option1);
-            newReadingInstrumentSelect.add(option2);
+        chartInstruments.forEach(instrument => {
+            const option = new Option(instrument, instrument);
+            instrumentSelectChart.add(option);
         });
 
-        if (instruments.includes(currentChartInstrument)) {
+        newReadingInstruments.forEach(instrument => {
+            const option = new Option(instrument, instrument);
+            newReadingInstrumentSelect.add(option);
+        });
+
+        if (chartInstruments.includes(currentChartInstrument)) {
             instrumentSelectChart.value = currentChartInstrument;
-        } else if (instruments.length > 0) {
-            instrumentSelectChart.value = instruments[0];
+        } else if (chartInstruments.length > 0) {
+            instrumentSelectChart.value = chartInstruments[0];
         }
 
-        if (instruments.includes(currentNewReadingInstrument)) {
+        if (newReadingInstruments.includes(currentNewReadingInstrument)) {
             newReadingInstrumentSelect.value = currentNewReadingInstrument;
         }
     }
@@ -300,14 +305,25 @@ document.addEventListener('DOMContentLoaded', () => {
             .filter(m => m.instrumento === instrumentName)
             .sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
 
-        const equationData = equations.find(eq => eq.instrumento === instrumentName);
+        // Handle derived instrument names (e.g., "PD-ED(MD-MI)") to find base equation data
+        const baseInstrumentName = instrumentName.includes('(') 
+            ? instrumentName.substring(0, instrumentName.indexOf('(')) 
+            : instrumentName;
+        const equationData = equations.find(eq => eq.instrumento === baseInstrumentName);
+
         const unit = equationData ? equationData.unit : '';
-        const variable = equationData ? equationData.variable : 'Magnitud';
+        
+        // Construct a more descriptive variable name for pendulums
+        let variable = equationData ? equationData.variable : 'Magnitud';
+        if (baseInstrumentName !== instrumentName) { // It's a derived pendulum name
+            const component = instrumentName.substring(instrumentName.indexOf('(') + 1, instrumentName.indexOf(')'));
+            variable = `${variable} ${component}`; // e.g., "Deformación MD-MI"
+        }
 
         chartTitle.textContent = `${variable} (${unit}) vs. Fecha`;
         const latest = instrumentMeasurements[instrumentMeasurements.length - 1];
         if(latest && latest.magnitud_fisica != null) {
-            latestMeasurement.textContent = `${latest.magnitud_fisica.toFixed(2)} ${unit}`;
+            latestMeasurement.textContent = `${latest.magnitud_fisica.toFixed(3)} ${unit}`;
         } else {
             latestMeasurement.textContent = '--';
         }
@@ -356,69 +372,188 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- NEW READING SCREEN ---
     function setupNewReadingForm() {
         newReadingDate.value = new Date().toISOString().split('T')[0]; // Set today's date
+
+        // Create and inject the container for pendulum-specific inputs
+        const pendulumInputContainer = document.createElement('div');
+        pendulumInputContainer.id = 'pendulum-inputs-container';
+        pendulumInputContainer.style.display = 'none'; // Hidden by default
+        newReadingInput.parentElement.insertAdjacentElement('afterend', pendulumInputContainer);
+
+        // Create and inject the container for pendulum-specific results
+        const pendulumResultContainer = document.createElement('div');
+        pendulumResultContainer.id = 'pendulum-results-container';
+        pendulumResultContainer.className = 'mt-4 text-center text-white';
+        calculatedMagnitude.parentElement.appendChild(pendulumResultContainer);
+
         newReadingInput.addEventListener('input', calculateMagnitude);
-        newReadingInstrumentSelect.addEventListener('change', calculateMagnitude);
+        newReadingInstrumentSelect.addEventListener('change', handleInstrumentChange);
         saveReadingButton.addEventListener('click', saveNewReading);
     }
 
-    function calculateMagnitude() {
-        const reading = parseFloat(newReadingInput.value);
+    function handleInstrumentChange() {
         const instrumentName = newReadingInstrumentSelect.value;
-
-        if (isNaN(reading) || !instrumentName) {
-            calculatedMagnitude.value = '--';
-            return;
-        }
+        if (!instrumentName) return;
 
         const equationData = equations.find(eq => eq.instrumento === instrumentName);
-        if (!equationData) {
-            calculatedMagnitude.value = 'Ecuación no encontrada';
+        const standardInputContainer = newReadingInput.parentElement;
+        const pendulumInputContainer = document.getElementById('pendulum-inputs-container');
+        const standardResultDisplay = calculatedMagnitude;
+        const pendulumResultContainer = document.getElementById('pendulum-results-container');
+
+        if (equationData && equationData.equations) { // It's a pendulum
+            standardInputContainer.style.display = 'none';
+            standardResultDisplay.style.display = 'none';
+            pendulumInputContainer.style.display = 'block';
+            pendulumResultContainer.style.display = 'block';
+
+            if (!pendulumInputContainer.hasChildNodes()) {
+                pendulumInputContainer.innerHTML = `
+                    <div class="mb-4">
+                        <label for="pendulum-l1" class="block text-sm font-medium text-slate-300 mb-1">Lectura L1</label>
+                        <input type="number" id="pendulum-l1" class="w-full p-2 bg-slate-700 border border-slate-600 rounded-md text-white focus:ring-2 focus:ring-[var(--primary-color)] focus:outline-none">
+                    </div>
+                    <div class="mb-4">
+                        <label for="pendulum-l2" class="block text-sm font-medium text-slate-300 mb-1">Lectura L2</label>
+                        <input type="number" id="pendulum-l2" class="w-full p-2 bg-slate-700 border border-slate-600 rounded-md text-white focus:ring-2 focus:ring-[var(--primary-color)] focus:outline-none">
+                    </div>
+                `;
+                document.getElementById('pendulum-l1').addEventListener('input', calculateMagnitude);
+                document.getElementById('pendulum-l2').addEventListener('input', calculateMagnitude);
+            }
+        } else { // It's a standard instrument
+            standardInputContainer.style.display = 'block';
+            standardResultDisplay.style.display = 'block';
+            pendulumInputContainer.style.display = 'none';
+            pendulumResultContainer.style.display = 'none';
+        }
+        calculateMagnitude(); // Trigger calculation with the new state
+    }
+
+    function calculateMagnitude() {
+        const instrumentName = newReadingInstrumentSelect.value;
+        const equationData = equations.find(eq => eq.instrumento === instrumentName);
+
+        // Clear previous results
+        const pendulumResultContainer = document.getElementById('pendulum-results-container');
+        pendulumResultContainer.innerHTML = '';
+        calculatedMagnitude.value = '--';
+
+        if (!instrumentName || !equationData) {
             return;
         }
 
-        try {
-            // IMPORTANT: Using eval can be a security risk in a real-world app 
-            // with user-provided equations. Here it's safe as equations are from a trusted source (equations.json).
-            const result = eval(equationData.equation.replace(/lectura/g, reading));
-            calculatedMagnitude.value = `${result.toFixed(2)} ${equationData.unit}`;
-        } catch (error) {
-            console.error('Error calculating magnitude:', error);
-            calculatedMagnitude.value = 'Error en cálculo';
+        if (equationData.equations) { // Pendulum logic
+            const l1 = parseFloat(document.getElementById('pendulum-l1')?.value);
+            const l2 = parseFloat(document.getElementById('pendulum-l2')?.value);
+
+            if (isNaN(l1) || isNaN(l2)) {
+                pendulumResultContainer.innerHTML = '<p class="text-slate-400">--</p>';
+                return;
+            }
+
+            let resultsHTML = '';
+            try {
+                Object.entries(equationData.equations).forEach(([key, eq]) => {
+                    const result = eval(eq.replace(/L1/g, l1).replace(/L2/g, l2));
+                    resultsHTML += `<p class="mb-1"><span class="font-semibold">${key}:</span> ${result.toFixed(3)} ${equationData.unit}</p>`;
+                });
+                pendulumResultContainer.innerHTML = resultsHTML;
+            } catch (error) {
+                console.error('Error calculating pendulum magnitude:', error);
+                pendulumResultContainer.innerHTML = '<p class="text-red-500">Error en cálculo</p>';
+            }
+
+        } else { // Standard instrument logic
+            const reading = parseFloat(newReadingInput.value);
+            if (isNaN(reading)) {
+                calculatedMagnitude.value = '--';
+                return;
+            }
+            try {
+                const result = eval(equationData.equation.replace(/lectura/g, reading));
+                calculatedMagnitude.value = `${result.toFixed(3)} ${equationData.unit}`;
+            } catch (error) {
+                console.error('Error calculating magnitude:', error);
+                calculatedMagnitude.value = 'Error en cálculo';
+            }
         }
     }
 
     function saveNewReading() {
         const fecha = newReadingDate.value;
         const instrumento = newReadingInstrumentSelect.value;
-        const lectura = parseFloat(newReadingInput.value);
-        const calculatedValueWithUnit = calculatedMagnitude.value;
+        const equationData = equations.find(eq => eq.instrumento === instrumento);
 
-        if (!fecha || !instrumento || isNaN(lectura) || calculatedValueWithUnit.includes('--') || calculatedValueWithUnit.includes('Error')) {
+        if (!fecha || !instrumento || !equationData) {
             alert('Por favor, complete todos los campos correctamente antes de guardar.');
             return;
         }
 
-        const magnitud_fisica = parseFloat(calculatedValueWithUnit);
+        let firstInstrumentForChart = instrumento;
 
-        const newMeasurement = { fecha, instrumento, lectura, magnitud_fisica };
-        
-        // Store in both arrays
-        measurements.push(newMeasurement);
-        sessionReadings.push(newMeasurement);
-        saveMeasurements(); // Save updated measurements to localStorage
+        if (equationData.equations) { // Pendulum logic
+            const l1 = parseFloat(document.getElementById('pendulum-l1')?.value);
+            const l2 = parseFloat(document.getElementById('pendulum-l2')?.value);
+
+            if (isNaN(l1) || isNaN(l2)) {
+                alert('Por favor, ingrese valores válidos para L1 y L2.');
+                return;
+            }
+
+            let isFirst = true;
+            Object.entries(equationData.equations).forEach(([key, eq]) => {
+                const result = eval(eq.replace(/L1/g, l1).replace(/L2/g, l2));
+                const derivedInstrumentName = `${instrumento}(${key})`;
+                
+                const newMeasurement = { 
+                    fecha, 
+                    instrumento: derivedInstrumentName, 
+                    lectura: `L1:${l1}, L2:${l2}`, // Store for reference
+                    magnitud_fisica: result 
+                };
+
+                measurements.push(newMeasurement);
+                sessionReadings.push(newMeasurement);
+
+                if (isFirst) {
+                    firstInstrumentForChart = derivedInstrumentName;
+                    isFirst = false;
+                }
+            });
+
+        } else { // Standard instrument logic
+            const lectura = parseFloat(newReadingInput.value);
+            const calculatedValueWithUnit = calculatedMagnitude.value;
+
+            if (isNaN(lectura) || calculatedValueWithUnit.includes('--') || calculatedValueWithUnit.includes('Error')) {
+                alert('Por favor, complete todos los campos correctamente antes de guardar.');
+                return;
+            }
+            const magnitud_fisica = parseFloat(calculatedValueWithUnit);
+            const newMeasurement = { fecha, instrumento, lectura, magnitud_fisica };
+            measurements.push(newMeasurement);
+            sessionReadings.push(newMeasurement);
+        }
+
+        saveMeasurements();
         localStorage.setItem('sessionReadings', JSON.stringify(sessionReadings));
 
-        // Refresh data in other screens
-        allInstruments = getUniqueInstruments(); // Update all instruments list
-        populateInstrumentSelects();
-        updateChart(instrumento);
-
-        alert('Lectura guardada exitosamente (en la memoria de esta sesión).');
-        showScreen('screen-graph', instrumento);
+        allInstruments = getUniqueInstruments();
+        const newReadingInstruments = equations.map(eq => eq.instrumento);
+        populateInstrumentSelects(allInstruments, newReadingInstruments);
+        
+        alert('Lectura guardada exitosamente.');
+        showScreen('screen-graph', firstInstrumentForChart);
         
         // Reset form
         newReadingInput.value = '';
         calculatedMagnitude.value = '--';
+        if (document.getElementById('pendulum-l1')) {
+            document.getElementById('pendulum-l1').value = '';
+            document.getElementById('pendulum-l2').value = '';
+        }
+        document.getElementById('pendulum-results-container').innerHTML = '';
         newReadingInstrumentSelect.selectedIndex = 0;
+        handleInstrumentChange(); // Hide pendulum fields if necessary
     }
 });

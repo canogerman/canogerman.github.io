@@ -1823,6 +1823,155 @@
       "variable": "Nivel Piezometrico",
       "unit": "msnm",
       "cota_boca": 259.022
+    },
+    {
+      "instrumento": "PD-ED",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((911.2 - L2)/318 - (L1 - 12.4)/318)) / Math.sin(((911.2 - L2)/318 + (L1 - 12.4)/318)) - 6.9 - 8.598 + 10.82",
+        "AA-AB": "60 * Math.sin((911.2 - L2)/318) * Math.sin((L1 - 12.4)/318) / Math.sin(((911.2 - L2)/318 + (L1 - 12.4)/318)) - 21.8 + 3.994 + 18.45"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 21.8,
+        "C2": 6.9,
+        "C3": 100,
+        "C4": 12.4,
+        "C5": 911.2,
+        "C_MD-MI": 10.82,
+        "C_AA-AB": 18.45,
+        "adjustment_x": -8.598,
+        "adjustment_y": 3.994,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-EI-D",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((910.1 - L2)/318 - (L1 - 9.4)/318)) / Math.sin(((910.1 - L2)/318 + (L1 - 9.4)/318)) - 0.038 + (-19.2)",
+        "AA-AB": "60 * Math.sin((910.1 - L2)/318) * Math.sin((L1 - 9.4)/318) / Math.sin(((910.1 - L2)/318 + (L1 - 9.4)/318)) - 32.261 + 22.21"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 32.261,
+        "C2": 0.038,
+        "C3": 0,
+        "C4": 9.4,
+        "C5": 910.1,
+        "C_MD-MI": -19.2,
+        "C_AA-AB": 22.21,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-EI-I",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((909.8 - L2)/318 - (L1 - 10)/318)) / Math.sin(((909.8 - L2)/318 + (L1 - 10)/318)) - 0.7 + (-20.92)",
+        "AA-AB": "60 * Math.sin((909.8 - L2)/318) * Math.sin((L1 - 10)/318) / Math.sin(((909.8 - L2)/318 + (L1 - 10)/318)) - 27.5 + 15.53"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 27.5,
+        "C2": 0.7,
+        "C3": 0,
+        "C4": 10,
+        "C5": 909.8,
+        "C_MD-MI": -20.92,
+        "C_AA-AB": 15.53,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-V4",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((909.8 - L2)/318 - (L1 - 1)/318)) / Math.sin(((909.8 - L2)/318 + (L1 - 1)/318)) + 2.7 + (-2.79)",
+        "AA-AB": "60 * Math.sin((909.8 - L2)/318) * Math.sin((L1 - 1)/318) / Math.sin(((909.8 - L2)/318 + (L1 - 1)/318)) - 32.5 + 10.84"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 32.5,
+        "C2": -2.7,
+        "C3": 0,
+        "C4": 1,
+        "C5": 909.8,
+        "C_MD-MI": -2.79,
+        "C_AA-AB": 10.84,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-V5",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((910.1 - L2)/318 - (L1 - 8.6)/318)) / Math.sin(((910.1 - L2)/318 + (L1 - 8.6)/318)) - 0.3 + (-5.25)",
+        "AA-AB": "60 * Math.sin((910.1 - L2)/318) * Math.sin((L1 - 8.6)/318) / Math.sin(((910.1 - L2)/318 + (L1 - 8.6)/318)) - 31 + (-1.75)"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 31,
+        "C2": 0.3,
+        "C3": 0,
+        "C4": 8.6,
+        "C5": 910.1,
+        "C_MD-MI": -5.25,
+        "C_AA-AB": -1.75,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-V5-258",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((910.13 - L2)/318 - (L1 - 10.53)/318)) / Math.sin(((910.13 - L2)/318 + (L1 - 10.53)/318)) + 0.54 + (-8.68)",
+        "AA-AB": "60 * Math.sin((910.13 - L2)/318) * Math.sin((L1 - 10.53)/318) / Math.sin(((910.13 - L2)/318 + (L1 - 10.53)/318)) - 32.72 + (-5.659)"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 32.72,
+        "C2": -0.54,
+        "C3": 0,
+        "C4": 10.53,
+        "C5": 910.13,
+        "C_MD-MI": -8.68,
+        "C_AA-AB": -5.659,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
+    },
+    {
+      "instrumento": "PD-V7",
+      "equations": {
+        "MD-MI": "30 * Math.sin(((912 - L2)/318 - (L1 - 9.6)/318)) / Math.sin(((912 - L2)/318 + (L1 - 9.6)/318)) - 1.7 + 3.62",
+        "AA-AB": "60 * Math.sin((912 - L2)/318) * Math.sin((L1 - 9.6)/318) / Math.sin(((912 - L2)/318 + (L1 - 9.6)/318)) - 35.5 + 10.68"
+      },
+      "variable": "Deformación",
+      "unit": "mm",
+      "constants": {
+        "C1": 35.5,
+        "C2": 1.7,
+        "C3": 0,
+        "C4": 9.6,
+        "C5": 912,
+        "C_MD-MI": 3.62,
+        "C_AA-AB": 10.68,
+        "r": 318,
+        "scale_x": 30,
+        "scale_y": 60
+      }
     }
   ]
 }
