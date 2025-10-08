@@ -21,21 +21,22 @@ document.addEventListener('DOMContentLoaded', () => {
     pinInput.addEventListener('input', () => {
         pinError.style.display = 'none';
     });
-    const screens = {
-        'screen-graph': document.getElementById('screen-graph'),
-        'screen-new-reading': document.getElementById('screen-new-reading'),
-    };
 
-    const navButtons = document.querySelectorAll('.nav-button');
+    pinInput.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            pinSubmit.click();
+        }
+    });
+
     const downloadReportButton = document.getElementById('download-report-button');
     const instrumentSelectChart = document.getElementById('instrument-select-chart');
-    const searchInstrumentChartInput = document.getElementById('search-instrument-chart-input');
+
     const chartTitle = document.getElementById('chart-title');
     const latestMeasurement = document.getElementById('latest-measurement');
     const chartCanvas = document.getElementById('measurements-chart');
     const newReadingDate = document.getElementById('new-reading-date');
     const newReadingInput = document.getElementById('new-reading-input');
-    const newReadingInstrumentSelect = document.getElementById('new-reading-instrument-select');
+
     const calculatedMagnitude = document.getElementById('calculated-magnitude');
     const saveReadingButton = document.getElementById('save-reading-button');
     const clearDataButton = document.getElementById('clear-data-button');
@@ -125,72 +126,28 @@ document.addEventListener('DOMContentLoaded', () => {
         ]).then(([_, equationsData]) => {
             equations = equationsData.equations;
             allInstruments = getUniqueInstruments();
-            const equationInstruments = equations.map(eq => eq.instrumento);
-
-            setupNavigation();
-            populateInstrumentSelects(allInstruments, equationInstruments);
+            
+            populateInstrumentSelects(allInstruments);
             setupNewReadingForm();
             setupReportGenerator();
             setupChartInstrumentFilter();
             clearDataButton.addEventListener('click', clearStoredData);
-            showScreen('screen-graph');
+            
+            // Initial chart update
+            const initialInstrument = allInstruments[0];
+            if (initialInstrument) {
+                instrumentSelectChart.value = initialInstrument;
+                updateChart(initialInstrument);
+                handleInstrumentChange(); // Also trigger form update
+            }
+
         }).catch(error => {
             console.error("Failed to initialize the application:", error);
             alert("No se pudieron cargar los datos necesarios para la aplicación. Por favor, revise la consola para más detalles.");
         });
     }
 
-    // --- NAVIGATION ---
-    function setupNavigation() {
-        navButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                const screenId = button.dataset.screen;
-                if (screenId) {
-                    const fromGraph = screens['screen-graph'].style.display === 'block';
-                    const toNewReading = screenId === 'screen-new-reading';
 
-                    if (fromGraph && toNewReading) {
-                        const currentInstrument = instrumentSelectChart.value;
-                        showScreen(screenId, currentInstrument);
-                    } else {
-                        showScreen(screenId);
-                    }
-                }
-            });
-        });
-    }
-
-    function showScreen(screenId, instrumentName = null) {
-        Object.values(screens).forEach(screen => screen.style.display = 'none');
-        screens[screenId].style.display = 'block';
-
-        // Update active button style in footers
-        document.querySelectorAll('.nav-button').forEach(btn => {
-            const p = btn.querySelector('p');
-            const span = btn.querySelector('span');
-            if (btn.dataset.screen === screenId) {
-                btn.classList.remove('text-slate-400', 'hover:text-[var(--primary-color)]');
-                btn.classList.add('text-[var(--primary-color)]');
-                if(p) p.classList.add('text-[var(--primary-color)]');
-                if(span) span.classList.add('text-[var(--primary-color)]');
-            } else {
-                btn.classList.add('text-slate-400', 'hover:text-[var(--primary-color)]');
-                btn.classList.remove('text-[var(--primary-color)]');
-                 if(p) p.classList.remove('text-[var(--primary-color)]');
-                 if(span) span.classList.remove('text-[var(--primary-color)]');
-            }
-        });
-
-        if (screenId === 'screen-graph') {
-            const targetInstrument = instrumentName || instrumentSelectChart.value || allInstruments[0];
-            instrumentSelectChart.value = targetInstrument;
-            updateChart(targetInstrument);
-        } else if (screenId === 'screen-new-reading' && instrumentName) {
-            newReadingInstrumentSelect.value = instrumentName;
-            calculateMagnitude();
-        }
-    }
 
     // --- INSTRUMENT HANDLING ---
     function getUniqueInstruments() {
@@ -199,15 +156,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupChartInstrumentFilter() {
-        searchInstrumentChartInput.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
-            const filteredInstruments = allInstruments.filter(inst => inst.toLowerCase().includes(searchTerm));
-            const newReadingInstruments = equations.map(eq => eq.instrumento);
-            populateInstrumentSelects(filteredInstruments, newReadingInstruments);
-        });
+        const instrumentPrefixSelect = document.getElementById('instrument-prefix-select');
+
+        function filterInstruments() {
+            const prefix = instrumentPrefixSelect.value;
+
+            const filteredInstruments = allInstruments.filter(inst => {
+                return prefix ? inst.startsWith(prefix) : true;
+            });
+            
+            populateInstrumentSelects(filteredInstruments);
+        }
+
+        instrumentPrefixSelect.addEventListener('change', filterInstruments);
     }
 
-        function clearStoredData() {
+    function clearStoredData() {
         localStorage.removeItem('measurements');
         localStorage.removeItem('sessionReadings');
         sessionReadings = []; // Also clear session readings
@@ -260,37 +224,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- GRAPH SCREEN ---
-    function populateInstrumentSelects(chartInstruments, newReadingInstruments) {
-        const currentChartInstrument = instrumentSelectChart.value;
-        const currentNewReadingInstrument = newReadingInstrumentSelect.value;
+    // --- UI AND FORM ---
 
+    function populateInstrumentSelects(instruments) {
+        const currentInstrument = instrumentSelectChart.value;
         instrumentSelectChart.innerHTML = '';
-        newReadingInstrumentSelect.innerHTML = '<option disabled selected value="">Seleccionar Instrumento</option>';
         
-        chartInstruments.forEach(instrument => {
+        instruments.forEach(instrument => {
             const option = new Option(instrument, instrument);
             instrumentSelectChart.add(option);
         });
 
-        newReadingInstruments.forEach(instrument => {
-            const option = new Option(instrument, instrument);
-            newReadingInstrumentSelect.add(option);
-        });
-
-        if (chartInstruments.includes(currentChartInstrument)) {
-            instrumentSelectChart.value = currentChartInstrument;
-        } else if (chartInstruments.length > 0) {
-            instrumentSelectChart.value = chartInstruments[0];
+        if (instruments.includes(currentInstrument)) {
+            instrumentSelectChart.value = currentInstrument;
+        } else if (instruments.length > 0) {
+            instrumentSelectChart.value = instruments[0];
         }
-
-        if (newReadingInstruments.includes(currentNewReadingInstrument)) {
-            newReadingInstrumentSelect.value = currentNewReadingInstrument;
-        }
+        instrumentSelectChart.dispatchEvent(new Event('change'));
     }
 
     instrumentSelectChart.addEventListener('change', (e) => {
-        updateChart(e.target.value);
+        const instrumentName = e.target.value;
+        updateChart(instrumentName);
+        handleInstrumentChange();
     });
 
     function updateChart(instrumentName) {
@@ -305,7 +261,6 @@ document.addEventListener('DOMContentLoaded', () => {
             .filter(m => m.instrumento === instrumentName)
             .sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
 
-        // Handle derived instrument names (e.g., "PD-ED(MD-MI)") to find base equation data
         const baseInstrumentName = instrumentName.includes('(') 
             ? instrumentName.substring(0, instrumentName.indexOf('(')) 
             : instrumentName;
@@ -313,11 +268,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const unit = equationData ? equationData.unit : '';
         
-        // Construct a more descriptive variable name for pendulums
         let variable = equationData ? equationData.variable : 'Magnitud';
-        if (baseInstrumentName !== instrumentName) { // It's a derived pendulum name
+        if (baseInstrumentName !== instrumentName) {
             const component = instrumentName.substring(instrumentName.indexOf('(') + 1, instrumentName.indexOf(')'));
-            variable = `${variable} ${component}`; // e.g., "Deformación MD-MI"
+            variable = `${variable} ${component}`;
         }
 
         chartTitle.textContent = `${variable} (${unit}) vs. Fecha`;
@@ -352,52 +306,45 @@ document.addEventListener('DOMContentLoaded', () => {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
-                    y: {
-                        beginAtZero: false,
-                        ticks: { color: '#92b7c9' },
-                        grid: { color: '#325567' }
-                    },
-                    x: {
-                        ticks: { color: '#92b7c9' },
-                        grid: { color: 'transparent' }
-                    }
+                    y: { beginAtZero: false, ticks: { color: '#92b7c9' }, grid: { color: '#325567' } },
+                    x: { ticks: { color: '#92b7c9' }, grid: { color: 'transparent' } }
                 },
-                plugins: {
-                    legend: { display: false }
-                }
+                plugins: { legend: { display: false } }
             }
         });
     }
 
-    // --- NEW READING SCREEN ---
     function setupNewReadingForm() {
-        newReadingDate.value = new Date().toISOString().split('T')[0]; // Set today's date
+        newReadingDate.value = new Date().toISOString().split('T')[0];
 
-        // Create and inject the container for pendulum-specific inputs
         const pendulumInputContainer = document.createElement('div');
         pendulumInputContainer.id = 'pendulum-inputs-container';
-        pendulumInputContainer.style.display = 'none'; // Hidden by default
-        newReadingInput.parentElement.insertAdjacentElement('afterend', pendulumInputContainer);
+        pendulumInputContainer.className = 'space-y-4';
+        pendulumInputContainer.style.display = 'none';
+        newReadingInput.closest('.flex.gap-4').insertAdjacentElement('afterend', pendulumInputContainer);
 
-        // Create and inject the container for pendulum-specific results
         const pendulumResultContainer = document.createElement('div');
         pendulumResultContainer.id = 'pendulum-results-container';
         pendulumResultContainer.className = 'mt-4 text-center text-white';
-        calculatedMagnitude.parentElement.appendChild(pendulumResultContainer);
+        // Insert it after the pendulum inputs container
+        pendulumInputContainer.insertAdjacentElement('afterend', pendulumResultContainer);
 
         newReadingInput.addEventListener('input', calculateMagnitude);
-        newReadingInstrumentSelect.addEventListener('change', handleInstrumentChange);
         saveReadingButton.addEventListener('click', saveNewReading);
     }
 
     function handleInstrumentChange() {
-        const instrumentName = newReadingInstrumentSelect.value;
+        const instrumentName = instrumentSelectChart.value;
         if (!instrumentName) return;
 
-        const equationData = equations.find(eq => eq.instrumento === instrumentName);
-        const standardInputContainer = newReadingInput.parentElement;
+        const baseInstrumentName = instrumentName.includes('(')
+            ? instrumentName.substring(0, instrumentName.indexOf('('))
+            : instrumentName;
+        const equationData = equations.find(eq => eq.instrumento === baseInstrumentName);
+
+        const standardInputContainer = newReadingInput.closest('.flex-1.space-y-2');
         const pendulumInputContainer = document.getElementById('pendulum-inputs-container');
-        const standardResultDisplay = calculatedMagnitude;
+        const standardResultDisplay = calculatedMagnitude.closest('.flex-1.space-y-2');
         const pendulumResultContainer = document.getElementById('pendulum-results-container');
 
         if (equationData && equationData.equations) { // It's a pendulum
@@ -408,13 +355,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!pendulumInputContainer.hasChildNodes()) {
                 pendulumInputContainer.innerHTML = `
-                    <div class="mb-4">
-                        <label for="pendulum-l1" class="block text-sm font-medium text-slate-300 mb-1">Lectura L1</label>
-                        <input type="number" id="pendulum-l1" class="w-full p-2 bg-slate-700 border border-slate-600 rounded-md text-white focus:ring-2 focus:ring-[var(--primary-color)] focus:outline-none">
-                    </div>
-                    <div class="mb-4">
-                        <label for="pendulum-l2" class="block text-sm font-medium text-slate-300 mb-1">Lectura L2</label>
-                        <input type="number" id="pendulum-l2" class="w-full p-2 bg-slate-700 border border-slate-600 rounded-md text-white focus:ring-2 focus:ring-[var(--primary-color)] focus:outline-none">
+                    <div class="flex gap-4">
+                        <div class="flex-1 space-y-2">
+                            <label for="pendulum-l1" class="text-sm font-medium text-gray-300">Lectura L1</label>
+                            <input type="number" id="pendulum-l1" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 p-4 text-base font-normal">
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <label for="pendulum-l2" class="text-sm font-medium text-gray-300">Lectura L2</label>
+                            <input type="number" id="pendulum-l2" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 p-4 text-base font-normal">
+                        </div>
                     </div>
                 `;
                 document.getElementById('pendulum-l1').addEventListener('input', calculateMagnitude);
@@ -426,14 +375,16 @@ document.addEventListener('DOMContentLoaded', () => {
             pendulumInputContainer.style.display = 'none';
             pendulumResultContainer.style.display = 'none';
         }
-        calculateMagnitude(); // Trigger calculation with the new state
+        calculateMagnitude();
     }
 
     function calculateMagnitude() {
-        const instrumentName = newReadingInstrumentSelect.value;
-        const equationData = equations.find(eq => eq.instrumento === instrumentName);
+        const instrumentName = instrumentSelectChart.value;
+        const baseInstrumentName = instrumentName.includes('(')
+            ? instrumentName.substring(0, instrumentName.indexOf('('))
+            : instrumentName;
+        const equationData = equations.find(eq => eq.instrumento === baseInstrumentName);
 
-        // Clear previous results
         const pendulumResultContainer = document.getElementById('pendulum-results-container');
         pendulumResultContainer.innerHTML = '';
         calculatedMagnitude.value = '--';
@@ -481,8 +432,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function saveNewReading() {
         const fecha = newReadingDate.value;
-        const instrumento = newReadingInstrumentSelect.value;
-        const equationData = equations.find(eq => eq.instrumento === instrumento);
+        const instrumento = instrumentSelectChart.value;
+        const baseInstrumentName = instrumento.includes('(')
+            ? instrumento.substring(0, instrumento.indexOf('('))
+            : instrumento;
+        const equationData = equations.find(eq => eq.instrumento === baseInstrumentName);
 
         if (!fecha || !instrumento || !equationData) {
             alert('Por favor, complete todos los campos correctamente antes de guardar.');
@@ -503,12 +457,12 @@ document.addEventListener('DOMContentLoaded', () => {
             let isFirst = true;
             Object.entries(equationData.equations).forEach(([key, eq]) => {
                 const result = eval(eq.replace(/L1/g, l1).replace(/L2/g, l2));
-                const derivedInstrumentName = `${instrumento}(${key})`;
+                const derivedInstrumentName = `${baseInstrumentName}(${key})`;
                 
                 const newMeasurement = { 
                     fecha, 
                     instrumento: derivedInstrumentName, 
-                    lectura: `L1:${l1}, L2:${l2}`, // Store for reference
+                    lectura: `L1:${l1}, L2:${l2}`,
                     magnitud_fisica: result 
                 };
 
@@ -539,11 +493,10 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('sessionReadings', JSON.stringify(sessionReadings));
 
         allInstruments = getUniqueInstruments();
-        const newReadingInstruments = equations.map(eq => eq.instrumento);
-        populateInstrumentSelects(allInstruments, newReadingInstruments);
+        populateInstrumentSelects(allInstruments);
         
         alert('Lectura guardada exitosamente.');
-        showScreen('screen-graph', firstInstrumentForChart);
+        updateChart(firstInstrumentForChart);
         
         // Reset form
         newReadingInput.value = '';
@@ -553,7 +506,6 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('pendulum-l2').value = '';
         }
         document.getElementById('pendulum-results-container').innerHTML = '';
-        newReadingInstrumentSelect.selectedIndex = 0;
-        handleInstrumentChange(); // Hide pendulum fields if necessary
+        handleInstrumentChange();
     }
 });
