@@ -47,8 +47,12 @@
     <div id="app-container" style="display: none;">
         <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#111c22] dark justify-between group/design-root overflow-x-hidden">
             <div class="flex-grow">
-                <header class="flex items-center bg-transparent p-4 pb-2 justify-between">
-                    <h1 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Auscultación App</h1>
+                <header class="flex items-center justify-between bg-transparent p-4 pb-2">
+                    <h1 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Auscultación App</h1>
+                    <div class="relative">
+                        <a id="date-link" class="text-white hover:font-bold text-sm cursor-pointer underline decoration-white"></a>
+                        <input type="date" id="new-reading-date" hidden/>
+                    </div>
                 </header>
                 <main class="p-4 space-y-6">
                     <!-- Instrument Selection -->
@@ -93,13 +97,6 @@
 
                     <!-- New Reading Form -->
                     <div class="space-y-4 pt-4">
-                        <div class="space-y-2">
-                            <label class="text-sm font-medium text-gray-300" for="date">Fecha</label>
-                            <div class="relative">
-                                <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"> calendar_today </span>
-                                <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 focus:ring-2 focus:ring-primary-600 border-none bg-[#233c48] h-14 placeholder:text-[#92b7c9] pl-11 pr-4 text-base font-normal leading-normal" id="new-reading-date" placeholder="AAAA-MM-DD" type="text"/>
-                            </div>
-                        </div>
                         <div class="flex gap-4">
                             <div class="flex-1 space-y-2">
                                 <label class="text-sm font-medium text-gray-300" for="instrument-reading">Lectura del Instrumento</label>
@@ -109,9 +106,6 @@
                                 <label class="text-sm font-medium text-gray-300" for="physical-magnitude">Magnitud Física</label>
                                 <div class="relative">
                                     <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-md text-white focus:outline-0 border-none bg-[#1a2e39] h-14 placeholder:text-[#92b7c9] p-4 text-base font-normal leading-normal cursor-not-allowed" id="calculated-magnitude" readonly="" value="--"/>
-                                    <div class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
-                                        <span class="text-xs font-semibold text-primary-400 bg-primary-900/50 px-2 py-1 rounded-full">Calculado</span>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +118,7 @@
                         <span class="material-symbols-outlined mr-2">delete</span>
                         <span class="truncate">Limpiar</span>
                     </button>
-                    <button id="save-reading-button" class="flex-1 flex w-full min-w-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-5 bg-primary-600 text-white text-lg font-bold leading-normal tracking-[0.015em] hover:bg-primary-700 active:bg-primary-800 transition-colors shadow-lg shadow-primary-900/50">
+                    <button id="save-reading-button" class="flex-1 flex w-full min-w-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-5 bg-green-600 text-white text-lg font-bold leading-normal tracking-[0.015em] hover:bg-green-700 active:bg-green-800 transition-colors shadow-lg shadow-green-900/50">
                         <span class="material-symbols-outlined mr-2">save</span>
                         <span class="truncate">Guardar</span>
                     </button>
