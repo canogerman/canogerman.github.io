@@ -190,7 +190,9 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 const today = new Date().toISOString().split('T')[0];
                 let reportContent = `Reporte de Mediciones - ${today}\n\n`;
-                reportContent += "====================================\n";
+                
+                // Add table headers
+                reportContent += "Instrumento\tFecha\tLectura\tMagnitud Calculada\n";
 
                 sessionReadings.forEach(reading => {
                     const equationData = equations.find(eq => eq.instrumento === reading.instrumento);
@@ -201,11 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         magnitudeText = `${reading.magnitud_fisica.toFixed(2)} ${unit}`;
                     }
 
-                    reportContent += `Instrumento: ${reading.instrumento}\n`;
-                    reportContent += `Fecha: ${reading.fecha}\n`;
-                    reportContent += `Lectura: ${reading.lectura}\n`;
-                    reportContent += `Magnitud Calculada: ${magnitudeText}\n`;
-                    reportContent += "====================================\n";
+                    reportContent += `${reading.instrumento}\t`;
+                    reportContent += `${reading.fecha}\t`;
+                    reportContent += `${reading.lectura}\t`;
+                    reportContent += `${magnitudeText}\n`;
                 });
 
                 const blob = new Blob([reportContent], { type: 'text/plain;charset=utf-8' });
@@ -249,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
         handleInstrumentChange();
     });
 
-    function updateChart(instrumentName) {
+    function updateChart(instrumentName, previewPoint) {
         if (!instrumentName) {
             chartTitle.textContent = 'Seleccione un instrumento';
             latestMeasurement.textContent = '--';
@@ -284,6 +285,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const labels = instrumentMeasurements.map(m => m.fecha);
         const data = instrumentMeasurements.map(m => m.magnitud_fisica);
+
+        if (previewPoint && !isNaN(previewPoint.magnitud_fisica)) {
+            labels.push(previewPoint.fecha);
+            data.push(previewPoint.magnitud_fisica);
+        }
 
         if (chart) {
             chart.destroy();
@@ -353,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Insert it after the pendulum inputs container
         pendulumInputContainer.insertAdjacentElement('afterend', pendulumResultContainer);
 
-        newReadingInput.addEventListener('input', calculateMagnitude);
+        newReadingInput.addEventListener('keyup', calculateMagnitude);
         saveReadingButton.addEventListener('click', saveNewReading);
     }
 
@@ -390,8 +396,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `;
-                document.getElementById('pendulum-l1').addEventListener('input', calculateMagnitude);
-                document.getElementById('pendulum-l2').addEventListener('input', calculateMagnitude);
+                document.getElementById('pendulum-l1').addEventListener('keyup', calculateMagnitude);
+                document.getElementById('pendulum-l2').addEventListener('keyup', calculateMagnitude);
             }
         } else { // It's a standard instrument
             standardInputContainer.style.display = 'block';
@@ -414,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
         calculatedMagnitude.value = '--';
 
         if (!instrumentName || !equationData) {
+            updateChart(instrumentName); // Clear preview
             return;
         }
 
@@ -423,33 +430,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (isNaN(l1) || isNaN(l2)) {
                 pendulumResultContainer.innerHTML = '<p class="text-slate-400">--</p>';
+                updateChart(instrumentName); // Clear preview
                 return;
             }
 
             let resultsHTML = '';
             try {
+                let firstKey = Object.keys(equationData.equations)[0];
+                let firstResult = eval(equationData.equations[firstKey].replace(/L1/g, l1).replace(/L2/g, l2));
+                
                 Object.entries(equationData.equations).forEach(([key, eq]) => {
                     const result = eval(eq.replace(/L1/g, l1).replace(/L2/g, l2));
                     resultsHTML += `<p class="mb-1"><span class="font-semibold">${key}:</span> ${result.toFixed(3)} ${equationData.unit}</p>`;
                 });
                 pendulumResultContainer.innerHTML = resultsHTML;
+
+                const previewPoint = {
+                    fecha: newReadingDate.value,
+                    magnitud_fisica: firstResult
+                };
+                updateChart(instrumentName, previewPoint);
+
             } catch (error) {
                 console.error('Error calculating pendulum magnitude:', error);
                 pendulumResultContainer.innerHTML = '<p class="text-red-500">Error en cálculo</p>';
+                updateChart(instrumentName); // Clear preview
             }
 
         } else { // Standard instrument logic
             const reading = parseFloat(newReadingInput.value);
             if (isNaN(reading)) {
                 calculatedMagnitude.value = '--';
+                updateChart(instrumentName); // Clear preview
                 return;
             }
             try {
                 const result = eval(equationData.equation.replace(/lectura/g, reading));
                 calculatedMagnitude.value = `${result.toFixed(3)} ${equationData.unit}`;
+                
+                const previewPoint = {
+                    fecha: newReadingDate.value,
+                    magnitud_fisica: result
+                };
+                updateChart(instrumentName, previewPoint);
+
             } catch (error) {
                 console.error('Error calculating magnitude:', error);
                 calculatedMagnitude.value = 'Error en cálculo';
+                updateChart(instrumentName); // Clear preview
             }
         }
     }
