@@ -1972,6 +1972,240 @@
         "scale_x": 30,
         "scale_y": 60
       }
+    },
+    {
+      "instrumento": "PH-1B-231",
+      "equation": "252.15 + lectura*10",
+      "cota_boca": 252.15,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-1B-235",
+      "equation": "252.16 + lectura*10",
+      "cota_boca": 252.16,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-1B-241",
+      "equation": "252.16 + lectura*10",
+      "cota_boca": 252.16,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-3B-231",
+      "equation": "252.16 + lectura*10",
+      "cota_boca": 252.16,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-3B-236",
+      "equation": "252.15 + lectura*10",
+      "cota_boca": 252.15,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-3B-241",
+      "equation": "252.13 + lectura*10",
+      "cota_boca": 252.13,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-6B-231",
+      "equation": "248.75 + lectura*10",
+      "cota_boca": 248.75,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-6B-234",
+      "equation": "248.77 + lectura*10",
+      "cota_boca": 248.77,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-7B-229",
+      "equation": "248.46 + lectura*10",
+      "cota_boca": 248.46,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-7B-236",
+      "equation": "248.45 + lectura*10",
+      "cota_boca": 248.45,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-8B-231",
+      "equation": "248.6 + lectura*10",
+      "cota_boca": 248.6,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-8B-234",
+      "equation": "248.61 + lectura*10",
+      "cota_boca": 248.61,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-9B-231",
+      "equation": "248.44 + lectura*10",
+      "cota_boca": 248.44,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-10B-231",
+      "equation": "243.1 + lectura*10",
+      "cota_boca": 243.1,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-11B-231",
+      "equation": "242.77 + lectura*10",
+      "cota_boca": 242.77,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-11B-235",
+      "equation": "242.77 + lectura*10",
+      "cota_boca": 242.77,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-1A-228",
+      "equation": "242.98 + lectura*10",
+      "cota_boca": 242.98,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-1A-232",
+      "equation": "243.02 + lectura*10",
+      "cota_boca": 243.02,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-2A-233",
+      "equation": "243.24 + lectura*10",
+      "cota_boca": 243.24,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-2A-228",
+      "equation": "243.15 + lectura*10",
+      "cota_boca": 243.15,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-3A-228",
+      "equation": "243.33 + lectura*10",
+      "cota_boca": 243.33,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-3A-232",
+      "equation": "243.37 + lectura*10",
+      "cota_boca": 243.37,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-4A-227",
+      "equation": "243.36 + lectura*10",
+      "cota_boca": 243.36,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-4A-233",
+      "equation": "243.36 + lectura*10",
+      "cota_boca": 243.36,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-5A-229",
+      "equation": "243.3 + lectura*10",
+      "cota_boca": 243.3,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-5A-234",
+      "equation": "243.3 + lectura*10",
+      "cota_boca": 243.3,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-6A-225",
+      "equation": "244.04 + lectura*10",
+      "cota_boca": 244.04,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-6A-230",
+      "equation": "243.44 + lectura*10",
+      "cota_boca": 243.44,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-6A-234",
+      "equation": "243.38 + lectura*10",
+      "cota_boca": 243.38,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-7A-228",
+      "equation": "243.39 + lectura*10",
+      "cota_boca": 243.39,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-7A-233",
+      "equation": "243.33 + lectura*10",
+      "cota_boca": 243.33,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-8A-227",
+      "equation": "243.29 + lectura*10",
+      "cota_boca": 243.29,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-8A-233",
+      "equation": "243.28 + lectura*10",
+      "cota_boca": 243.28,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-9A-233",
+      "equation": "243.25 + lectura*10",
+      "cota_boca": 243.25,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-9A-228",
+      "equation": "243.25 + lectura*10",
+      "cota_boca": 243.25,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-10A-233",
+      "equation": "243.14 + lectura*10",
+      "cota_boca": 243.14,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-10A-229",
+      "equation": "243.18 + lectura*10",
+      "cota_boca": 243.18,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-11A-229",
+      "equation": "243.12 + lectura*10",
+      "cota_boca": 243.12,
+      "unit": "msnm"
+    },
+    {
+      "instrumento": "PH-11A-234",
+      "equation": "243.06 + lectura*10",
+      "cota_boca": 243.06,
+      "unit": "msnm"
     }
   ]
 }

@@ -14199,6 +14199,1566 @@
       "fecha": "2025-08-29",
       "instrumento": "PD-V7(AA-AB)",
       "magnitud_fisica": 11.95
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.95
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.161
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 255.36
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.24
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 255.45
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.77
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.86
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.65
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.6
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.71
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.94
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.1
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.37
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.87
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.157
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 255.06
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.24
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 255.15
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.37
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.4
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.31
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.3
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.57
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.97
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.155
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 255.06
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.24
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 255.15
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.47
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.4
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.21
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.3
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.57
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 253.07
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.152
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 255.06
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.24
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 255.15
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.47
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.4
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.21
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.3
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.47
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.97
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.75
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.149
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 255.06
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.238
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 254.95
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.17
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.66
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.4
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.21
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.1
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.37
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.87
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.65
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.146
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 254.86
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.238
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 254.65
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 252.87
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.36
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.2
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 252.81
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.0
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.27
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.57
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.65
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.142
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 254.96
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.23
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 255.05
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 253.27
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.2
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 253.01
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.3
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.57
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.87
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-1B-231",
+      "magnitud_fisica": 253.65
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-1B-235",
+      "magnitud_fisica": 252.76
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-1B-241",
+      "magnitud_fisica": 252.137
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-3B-231",
+      "magnitud_fisica": 254.86
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-3B-236",
+      "magnitud_fisica": 252.85
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-3B-241",
+      "magnitud_fisica": 252.225
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-6B-231",
+      "magnitud_fisica": 254.75
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-6B-234",
+      "magnitud_fisica": 252.97
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-7B-229",
+      "magnitud_fisica": 255.46
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-7B-236",
+      "magnitud_fisica": 251.55
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-8B-231",
+      "magnitud_fisica": 255.2
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-8B-234",
+      "magnitud_fisica": 252.81
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-9B-231",
+      "magnitud_fisica": 256.44
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-10B-231",
+      "magnitud_fisica": 258.1
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-11B-231",
+      "magnitud_fisica": 258.27
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-11B-235",
+      "magnitud_fisica": 252.57
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.38
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.62
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.04
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.15
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.63
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.87
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.36
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.5
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 252.9
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.04
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.64
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.68
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.19
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.53
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.69
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.88
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 255.94
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.58
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.72
+    },
+    {
+      "fecha": "01/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.66
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.48
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.72
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.24
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.35
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.83
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 254.07
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.96
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.56
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.7
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 253.0
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.24
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.84
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.78
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.29
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.63
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.89
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 255.08
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.95
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 256.14
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.78
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.92
+    },
+    {
+      "fecha": "04/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.86
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.48
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.82
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.24
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.35
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.83
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 254.17
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.96
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.66
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.7
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 253.1
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.34
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.84
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.88
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.39
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.63
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.89
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 255.08
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.95
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 256.14
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.78
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.92
+    },
+    {
+      "fecha": "08/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.76
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.38
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.72
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.14
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.35
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.73
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.97
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.86
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.56
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.7
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 253.0
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.24
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.74
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.78
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.29
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.63
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.89
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.98
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 256.04
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.78
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.82
+    },
+    {
+      "fecha": "11/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.76
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.38
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.72
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.04
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.15
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.73
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.97
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.46
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.6
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 252.9
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.24
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.64
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.78
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.19
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.53
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.79
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.88
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 255.94
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.78
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.72
+    },
+    {
+      "fecha": "18/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.66
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.18
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.52
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 253.84
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 256.95
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.53
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.67
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.56
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.36
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.4
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 252.8
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.04
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.54
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.58
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.09
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.33
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.69
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.88
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.45
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 255.74
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.58
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.62
+    },
+    {
+      "fecha": "22/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.46
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.38
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.82
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 254.14
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 257.15
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.73
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.97
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.86
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.56
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.6
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 253.1
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.24
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.74
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.78
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.29
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.53
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.89
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.88
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.85
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 255.94
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.78
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.92
+    },
+    {
+      "fecha": "25/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.66
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-1A-228",
+      "magnitud_fisica": 257.18
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-1A-232",
+      "magnitud_fisica": 253.62
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-2A-233",
+      "magnitud_fisica": 253.84
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-2A-228",
+      "magnitud_fisica": 256.95
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-3A-228",
+      "magnitud_fisica": 256.63
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-3A-232",
+      "magnitud_fisica": 253.77
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-4A-227",
+      "magnitud_fisica": 255.76
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-4A-233",
+      "magnitud_fisica": 253.36
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-5A-229",
+      "magnitud_fisica": 256.5
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-5A-234",
+      "magnitud_fisica": 252.9
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-6A-225",
+      "magnitud_fisica": 259.14
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-6A-230",
+      "magnitud_fisica": 256.64
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-6A-234",
+      "magnitud_fisica": 252.68
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-7A-228",
+      "magnitud_fisica": 255.19
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-7A-233",
+      "magnitud_fisica": 252.43
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-8A-227",
+      "magnitud_fisica": 257.69
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-8A-233",
+      "magnitud_fisica": 254.78
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-9A-233",
+      "magnitud_fisica": 253.65
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-9A-228",
+      "magnitud_fisica": 253.25
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-10A-233",
+      "magnitud_fisica": 255.74
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-10A-229",
+      "magnitud_fisica": 257.58
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-11A-229",
+      "magnitud_fisica": 257.72
+    },
+    {
+      "fecha": "29/08/2025",
+      "instrumento": "PH-11A-234",
+      "magnitud_fisica": 254.66
     }
   ]
 }
