@@ -315,7 +315,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupNewReadingForm() {
-        newReadingDate.value = new Date().toISOString().split('T')[0];
+        const dateLink = document.getElementById('date-link');
+
+        dateLink.addEventListener('click', () => {
+            try {
+                newReadingDate.showPicker();
+            } catch (error) {
+                console.error("Error showing date picker: ", error);
+            }
+        });
+
+        // Function to update the link text
+        const updateDateLink = () => {
+            const date = new Date(newReadingDate.value);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateLink.textContent = new Intl.DateTimeFormat('es-ES', options).format(date);
+        };
+
+        // Set initial date and link text
+        if (!newReadingDate.value) {
+            newReadingDate.value = new Date().toISOString().split('T')[0];
+        }
+        updateDateLink();
+
+        // Update link when date changes
+        newReadingDate.addEventListener('change', updateDateLink);
 
         const pendulumInputContainer = document.createElement('div');
         pendulumInputContainer.id = 'pendulum-inputs-container';
@@ -493,7 +517,12 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('sessionReadings', JSON.stringify(sessionReadings));
 
         allInstruments = getUniqueInstruments();
-        populateInstrumentSelects(allInstruments);
+        const instrumentPrefixSelect = document.getElementById('instrument-prefix-select');
+        const prefix = instrumentPrefixSelect.value;
+        const filteredInstruments = allInstruments.filter(inst => {
+            return prefix ? inst.startsWith(prefix) : true;
+        });
+        populateInstrumentSelects(filteredInstruments);
         
         alert('Lectura guardada exitosamente.');
         updateChart(firstInstrumentForChart);
